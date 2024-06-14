@@ -1,0 +1,38 @@
+{
+  "" : {
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FacebookLogin-master.dia",
+    "emit-module-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FacebookLogin-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FacebookLogin-master-emit-module.dia",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FacebookLogin-master.swiftdeps"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/FacebookLogin/Sources/Login/FBLoginButton.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBLoginButton.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBLoginButton.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBLoginButton.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBLoginButton.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBLoginButton.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBLoginButton.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBLoginButton.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBLoginButton~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/FacebookLogin/Sources/Login/FBSDKLoginKit+Typealiases.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBSDKLoginKit+Typealiases.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBSDKLoginKit+Typealiases.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBSDKLoginKit+Typealiases.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBSDKLoginKit+Typealiases.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBSDKLoginKit+Typealiases.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBSDKLoginKit+Typealiases.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBSDKLoginKit+Typealiases.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/FBSDKLoginKit+Typealiases~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/FacebookLogin/Sources/Login/LoginManager.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/LoginManager.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/LoginManager.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/LoginManager.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/LoginManager.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/LoginManager.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/LoginManager.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/LoginManager.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/Objects-normal/arm64/LoginManager~partial.swiftmodule"
+  }
+}

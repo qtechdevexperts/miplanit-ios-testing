@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Display-Regular.ttf">
+            <string>SFUIDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="shopItemQuantityCell" id="12K-gs-tee" customClass="ShopItemQuantityCell" customModule="MiPlaniT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="239" height="154"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xJ4-r0-q6t">
+                <rect key="frame" x="0.0" y="0.0" width="239" height="154"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pzb-qm-k4k">
+                        <rect key="frame" x="0.0" y="0.0" width="239" height="154"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zz-8c-Vme">
+                                <rect key="frame" x="103" y="66.5" width="33" height="17"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8Zz-8c-Vme" firstAttribute="centerX" secondItem="pzb-qm-k4k" secondAttribute="centerX" id="cEp-Yw-gDV"/>
+                            <constraint firstItem="8Zz-8c-Vme" firstAttribute="centerY" secondItem="pzb-qm-k4k" secondAttribute="centerY" constant="-2" id="hgf-Sl-Oqn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pzb-qm-k4k" firstAttribute="leading" secondItem="xJ4-r0-q6t" secondAttribute="leading" id="duf-vj-8pq"/>
+                    <constraint firstItem="pzb-qm-k4k" firstAttribute="top" secondItem="xJ4-r0-q6t" secondAttribute="top" id="fbl-Fg-0EM"/>
+                    <constraint firstAttribute="trailing" secondItem="pzb-qm-k4k" secondAttribute="trailing" id="lcd-zo-7uq"/>
+                    <constraint firstAttribute="bottom" secondItem="pzb-qm-k4k" secondAttribute="bottom" id="pBZ-iD-vNV"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="239" height="154"/>
+            <connections>
+                <outlet property="labelQuantity" destination="8Zz-8c-Vme" id="mxY-AK-PZH"/>
+            </connections>
+            <point key="canvasLocation" x="190.57971014492756" y="94.419642857142847"/>
+        </collectionViewCell>
+    </objects>
+</document>

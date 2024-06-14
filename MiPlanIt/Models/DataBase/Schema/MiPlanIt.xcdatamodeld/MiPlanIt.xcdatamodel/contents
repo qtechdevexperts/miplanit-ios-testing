@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="18G3020" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PlanItCalendar" representedClassName="PlanItCalendar" syncable="YES" codeGenerationType="class">
+        <attribute name="accessLevel" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="appCalendarId" optional="YES" attributeType="String"/>
+        <attribute name="calendarColorCode" optional="YES" attributeType="String"/>
+        <attribute name="calendarId" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="calendarImage" optional="YES" attributeType="String"/>
+        <attribute name="calendarImageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="calendarName" optional="YES" attributeType="String"/>
+        <attribute name="calendarType" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="calendarTypeLabel" optional="YES" attributeType="String"/>
+        <attribute name="canEdit" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="deleteStatus" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isPending" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="String"/>
+        <attribute name="parentCalendarId" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="socialAccountEmail" optional="YES" attributeType="String"/>
+        <attribute name="socialAccountId" optional="YES" attributeType="String"/>
+        <attribute name="socialAccountName" optional="YES" attributeType="String"/>
+        <attribute name="socialCalendarId" optional="YES" attributeType="String"/>
+        <attribute name="token" optional="YES" attributeType="String"/>
+        <attribute name="user" optional="YES" attributeType="String"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="calendar" inverseEntity="PlanItCreator"/>
+        <relationship name="invitees" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItInvitees" inverseName="calendar" inverseEntity="PlanItInvitees"/>
+        <relationship name="modifiedBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItModifier" inverseName="calendar" inverseEntity="PlanItModifier"/>
+        <relationship name="sharedUser" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItInvitees" inverseName="sharedBaseCalendar" inverseEntity="PlanItInvitees"/>
+    </entity>
+    <entity name="PlanItContacts" representedClassName="PlanItContacts" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="fullName" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="String"/>
+        <attribute name="telCountryCode" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlanItCreator" representedClassName="PlanItCreator" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="fullName" optional="YES" attributeType="String"/>
+        <attribute name="origin" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <relationship name="calendar" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItCalendar" inverseName="createdBy" inverseEntity="PlanItCalendar"/>
+        <relationship name="createdInvitee" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItInvitees" inverseName="createdBy" inverseEntity="PlanItInvitees"/>
+        <relationship name="dashboard" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItDashboard" inverseName="createdBy" inverseEntity="PlanItDashboard"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItEvent" inverseName="createdBy" inverseEntity="PlanItEvent"/>
+        <relationship name="giftCoupon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItGiftCoupon" inverseName="createdBy" inverseEntity="PlanItGiftCoupon"/>
+        <relationship name="purchase" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItPurchase" inverseName="createdBy" inverseEntity="PlanItPurchase"/>
+        <relationship name="shop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItShopList" inverseName="createdBy" inverseEntity="PlanItShopList"/>
+        <relationship name="shopItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItShopItems" inverseName="createdBy" inverseEntity="PlanItShopItems"/>
+        <relationship name="shopListItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItShopListItems" inverseName="createdBy" inverseEntity="PlanItShopListItems"/>
+        <relationship name="shopMainCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItShopMainCategory" inverseName="createdBy" inverseEntity="PlanItShopMainCategory"/>
+        <relationship name="shopSubCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItShopSubCategory" inverseName="createdBy" inverseEntity="PlanItShopSubCategory"/>
+        <relationship name="subTodo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItSubTodo" inverseName="createdBy" inverseEntity="PlanItSubTodo"/>
+        <relationship name="todo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItTodo" inverseName="createdBy" inverseEntity="PlanItTodo"/>
+        <relationship name="todoCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItTodoCategory" inverseName="createdBy" inverseEntity="PlanItTodoCategory"/>
+        <relationship name="userNotification" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItUserNotification" inverseName="createdBy" inverseEntity="PlanItUserNotification"/>
+    </entity>
+    <entity name="PlanItDashboard" representedClassName="PlanItDashboard" syncable="YES" codeGenerationType="class">
+        <attribute name="appDashboardId" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dashboardImageData" optional="YES" attributeType="Binary"/>
+        <attribute name="deleteStatus" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isDefault" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isPending" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="userDashboardId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="userDashboardImage" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="dashboard" inverseEntity="PlanItCreator"/>
+        <relationship name="excludedSections" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItExcludedSections" inverseName="dashboard" inverseEntity="PlanItExcludedSections"/>
+        <relationship name="modifiedBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItModifier" inverseName="dashboard" inverseEntity="PlanItModifier"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItTags" inverseName="dashboard" inverseEntity="PlanItTags"/>
+    </entity>
+    <entity name="PlanItDataStorage" representedClassName="PlanItDataStorage" syncable="YES" codeGenerationType="class">
+        <attribute name="totalSpace" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="usedSpace" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="user" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlanItEvent" representedClassName="PlanItEvent" syncable="YES" codeGenerationType="class">
+        <attribute name="accessLevel" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="appEventId" optional="YES" attributeType="String"/>
+        <attribute name="bodyContentType" optional="YES" attributeType="String"/>
+        <attribute name="conferenceType" optional="YES" attributeType="String"/>
+        <attribute name="conferenceUrl" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="creatorEmail" optional="YES" attributeType="String"/>
+        <attribute name="creatorName" optional="YES" attributeType="String"/>
+        <attribute name="endDate" optional="YES" attributeType="String"/>
+        <attribute name="endDateTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="endTime" optional="YES" attributeType="String"/>
+        <attribute name="eventDescription" optional="YES" attributeType="String"/>
+        <attribute name="eventId" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="eventName" optional="YES" attributeType="String"/>
+        <attribute name="extCreatedDate" optional="YES" attributeType="String"/>
+        <attribute name="extEventId" optional="YES" attributeType="String"/>
+        <attribute name="extUpdatedDate" optional="YES" attributeType="String"/>
+        <attribute name="fullConferenceData" optional="YES" attributeType="String"/>
+        <attribute name="htmlLink" optional="YES" attributeType="String"/>
+        <attribute name="isAllDay" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isAvailable" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isPending" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isRecurrence" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isSocialEvent" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="String"/>
+        <attribute name="notificationId" optional="YES" attributeType="String"/>
+        <attribute name="notifiedDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="organizerEmail" optional="YES" attributeType="String"/>
+        <attribute name="organizerName" optional="YES" attributeType="String"/>
+        <attribute name="originalEndTimeZone" optional="YES" attributeType="String"/>
+        <attribute name="originalStartDate" optional="YES" attributeType="String"/>
+        <attribute name="originalStartDateTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="originalStartTime" optional="YES" attributeType="String"/>
+        <attribute name="originalStartTimeZone" optional="YES" attributeType="String"/>
+        <attribute name="recurrenceEndDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="recurringEventId" optional="YES" attributeType="String"/>
+        <attribute name="reminderId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="remindMe" optional="YES" attributeType="Double" usesScalarValueType="YES"/>
+        <attribute name="responseStatus" optional="YES" attributeType="String"/>
+        <attribute name="sortedTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="startDate" optional="YES" attributeType="String"/>
+        <attribute name="startDateTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="startTime" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="user" optional="YES" attributeType="String"/>
+        <relationship name="attachments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItEventAttachment" inverseName="event" inverseEntity="PlanItEventAttachment"/>
+        <relationship name="attendees" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItEventAttendees" inverseName="event" inverseEntity="PlanItEventAttendees"/>
+        <relationship name="calendars" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItEventCalendar" inverseName="event" inverseEntity="PlanItEventCalendar"/>
+        <relationship name="child" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItEvent" inverseName="parent" inverseEntity="PlanItEvent"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="event" inverseEntity="PlanItCreator"/>
+        <relationship name="invitees" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItInvitees" inverseName="event" inverseEntity="PlanItInvitees"/>
+        <relationship name="modifiedBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItModifier" inverseName="event" inverseEntity="PlanItModifier"/>
+        <relationship name="notifyCalendars" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItEventCalendar" inverseName="mainEvent" inverseEntity="PlanItEventCalendar"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItEvent" inverseName="child" inverseEntity="PlanItEvent"/>
+        <relationship name="recurrence" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItEventRecurrence" inverseName="event" inverseEntity="PlanItEventRecurrence"/>
+        <relationship name="reminder" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItReminder" inverseName="event" inverseEntity="PlanItReminder"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItTags" inverseName="event" inverseEntity="PlanItTags"/>
+    </entity>
+    <entity name="PlanItEventAttachment" representedClassName="PlanItEventAttachment" syncable="YES" codeGenerationType="class">
+        <attribute name="fileUrl" optional="YES" attributeType="String"/>
+        <attribute name="iconLink" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItEvent" inverseName="attachments" inverseEntity="PlanItEvent"/>
+    </entity>
+    <entity name="PlanItEventAttendees" representedClassName="PlanItEventAttendees" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItEvent" inverseName="attendees" inverseEntity="PlanItEvent"/>
+    </entity>
+    <entity name="PlanItEventCalendar" representedClassName="PlanItEventCalendar" syncable="YES" codeGenerationType="class">
+        <attribute name="accessLevel" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="appCalendarId" optional="YES" attributeType="String"/>
+        <attribute name="calendarId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="calendarName" optional="YES" attributeType="String"/>
+        <attribute name="calendarType" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="socialAccountEmail" optional="YES" attributeType="String"/>
+        <attribute name="socialAccountName" optional="YES" attributeType="String"/>
+        <attribute name="socialCalendarId" optional="YES" attributeType="String"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItEvent" inverseName="calendars" inverseEntity="PlanItEvent"/>
+        <relationship name="mainEvent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItEvent" inverseName="notifyCalendars" inverseEntity="PlanItEvent"/>
+    </entity>
+    <entity name="PlanItEventRecurrence" representedClassName="PlanItEventRecurrence" syncable="YES" codeGenerationType="class">
+        <attribute name="dayOfMonth" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="daysOfWeek" optional="YES" attributeType="String"/>
+        <attribute name="endDate" optional="YES" attributeType="String"/>
+        <attribute name="firstDayOfWeek" optional="YES" attributeType="String"/>
+        <attribute name="index" optional="YES" attributeType="String"/>
+        <attribute name="interval" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="month" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="numberOfOccurrences" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="patternType" optional="YES" attributeType="String"/>
+        <attribute name="rangeType" optional="YES" attributeType="String"/>
+        <attribute name="recurrenceTimeZone" optional="YES" attributeType="String"/>
+        <attribute name="rule" optional="YES" attributeType="String"/>
+        <attribute name="startDate" optional="YES" attributeType="String"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItEvent" inverseName="recurrence" inverseEntity="PlanItEvent"/>
+    </entity>
+    <entity name="PlanItExcludedSections" representedClassName="PlanItExcludedSections" syncable="YES" codeGenerationType="class">
+        <attribute name="sectionName" optional="YES" attributeType="String"/>
+        <relationship name="dashboard" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItDashboard" inverseName="excludedSections" inverseEntity="PlanItDashboard"/>
+    </entity>
+    <entity name="PlanItGiftCoupon" representedClassName="PlanItGiftCoupon" syncable="YES" codeGenerationType="class">
+        <attribute name="appGiftCouponId" optional="YES" attributeType="String"/>
+        <attribute name="couponAmount" optional="YES" attributeType="String"/>
+        <attribute name="couponCode" optional="YES" attributeType="String"/>
+        <attribute name="couponDataType" attributeType="Double" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="couponDescription" optional="YES" attributeType="String"/>
+        <attribute name="couponId" optional="YES" attributeType="String"/>
+        <attribute name="couponName" optional="YES" attributeType="String"/>
+        <attribute name="couponServerId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="currencySymbol" optional="YES" attributeType="String"/>
+        <attribute name="deleteStatus" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="expiryDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="isPending" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="issuedBy" optional="YES" attributeType="String"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="String"/>
+        <attribute name="recievedFrom" optional="YES" attributeType="String"/>
+        <attribute name="redeemedDate" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <attribute name="validfrom" optional="YES" attributeType="String"/>
+        <relationship name="attachments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItUserAttachment" inverseName="giftCoupon" inverseEntity="PlanItUserAttachment"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="giftCoupon" inverseEntity="PlanItCreator"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItTags" inverseName="giftCoupon" inverseEntity="PlanItTags"/>
+    </entity>
+    <entity name="PlanItInvitees" representedClassName="PlanItInvitees" syncable="YES" codeGenerationType="class">
+        <attribute name="accessLevel" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="countryCode" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="fullName" optional="YES" attributeType="String"/>
+        <attribute name="isNotifyCalendar" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isOther" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="origin" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="String"/>
+        <attribute name="sharedStatus" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <relationship name="calendar" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItCalendar" inverseName="invitees" inverseEntity="PlanItCalendar"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItCreator" inverseName="createdInvitee" inverseEntity="PlanItCreator"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItEvent" inverseName="invitees" inverseEntity="PlanItEvent"/>
+        <relationship name="sharedBaseCalendar" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItCalendar" inverseName="sharedUser" inverseEntity="PlanItCalendar"/>
+        <relationship name="sharedBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItSharedUser" inverseName="invitee" inverseEntity="PlanItSharedUser"/>
+        <relationship name="shop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItShopList" inverseName="shareInvitees" inverseEntity="PlanItShopList"/>
+        <relationship name="todo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItTodo" inverseName="invitees" inverseEntity="PlanItTodo"/>
+        <relationship name="todoCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItTodoCategory" inverseName="invitees" inverseEntity="PlanItTodoCategory"/>
+    </entity>
+    <entity name="PlanItModifier" representedClassName="PlanItModifier" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="fullName" optional="YES" attributeType="String"/>
+        <attribute name="origin" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <relationship name="calendar" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItCalendar" inverseName="modifiedBy" inverseEntity="PlanItCalendar"/>
+        <relationship name="dashboard" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItDashboard" inverseName="modifiedBy" inverseEntity="PlanItDashboard"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItEvent" inverseName="modifiedBy" inverseEntity="PlanItEvent"/>
+        <relationship name="shopList" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItShopList" inverseName="modifiedBy" inverseEntity="PlanItShopList"/>
+        <relationship name="shopListItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItShopListItems" inverseName="modifiedBy" inverseEntity="PlanItShopListItems"/>
+        <relationship name="subTodo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItSubTodo" inverseName="modifiedBy" inverseEntity="PlanItSubTodo"/>
+        <relationship name="todo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItTodo" inverseName="modifiedBy" inverseEntity="PlanItTodo"/>
+        <relationship name="todoCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItTodoCategory" inverseName="modifiedBy" inverseEntity="PlanItTodoCategory"/>
+    </entity>
+    <entity name="PlanItPurchase" representedClassName="PlanItPurchase" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="String"/>
+        <attribute name="appPurchaseId" optional="YES" attributeType="String"/>
+        <attribute name="billDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="currencySymbol" optional="YES" attributeType="String"/>
+        <attribute name="deleteStatus" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isPending" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="paymentDescription" optional="YES" attributeType="String"/>
+        <attribute name="paymentTypeId" optional="YES" attributeType="String"/>
+        <attribute name="productName" optional="YES" attributeType="String"/>
+        <attribute name="purchaseCategoryType" optional="YES" attributeType="Double" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="purchaseDescription" optional="YES" attributeType="String"/>
+        <attribute name="purchaseId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="storeName" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <relationship name="attachments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItUserAttachment" inverseName="purchase" inverseEntity="PlanItUserAttachment"/>
+        <relationship name="card" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItPurchaseCard" inverseName="purchase" inverseEntity="PlanItPurchaseCard"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="purchase" inverseEntity="PlanItCreator"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItTags" inverseName="purchase" inverseEntity="PlanItTags"/>
+    </entity>
+    <entity name="PlanItPurchaseCard" representedClassName="PlanItPurchaseCard" syncable="YES" codeGenerationType="class">
+        <attribute name="cardName" optional="YES" attributeType="String"/>
+        <attribute name="cardNumber" optional="YES" attributeType="String"/>
+        <attribute name="isSelected" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="purchase" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItPurchase" inverseName="card" inverseEntity="PlanItPurchase"/>
+    </entity>
+    <entity name="PlanItReminder" representedClassName="PlanItReminder" syncable="YES" codeGenerationType="class">
+        <attribute name="emailNotification" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="emailNotificationBody" optional="YES" attributeType="String"/>
+        <attribute name="interval" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="intervalType" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="reminderId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="String"/>
+        <attribute name="startTime" optional="YES" attributeType="String"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItEvent" inverseName="reminder" inverseEntity="PlanItEvent"/>
+        <relationship name="shopListItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItShopListItems" inverseName="reminder" inverseEntity="PlanItShopListItems"/>
+        <relationship name="todo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItTodo" inverseName="reminder" inverseEntity="PlanItTodo"/>
+    </entity>
+    <entity name="PlanItSettings" representedClassName="PlanItSettings" syncable="YES" codeGenerationType="class">
+        <attribute name="isCustomDashboard" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lastCalendarFetchTime" optional="YES" attributeType="String"/>
+        <attribute name="lastDataFetchTime" optional="YES" attributeType="String"/>
+        <attribute name="lastGiftFetchTime" optional="YES" attributeType="String"/>
+        <attribute name="lastPurchaseFetchTime" optional="YES" attributeType="String"/>
+        <attribute name="lastShopdataFetchTime" optional="YES" attributeType="String"/>
+        <attribute name="lastTodoFetchTime" optional="YES" attributeType="String"/>
+        <attribute name="lastUserCustomDashboardFetchTime" optional="YES" attributeType="String"/>
+        <attribute name="lastUserShopdataFetchTime" optional="YES" attributeType="String"/>
+        <attribute name="lastUserShopListdataFetchTime" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItUser" inverseName="settings" inverseEntity="PlanItUser"/>
+    </entity>
+    <entity name="PlanItSharedUser" representedClassName="PlanItSharedUser" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="fullName" optional="YES" attributeType="String"/>
+        <attribute name="origin" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <relationship name="invitee" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItInvitees" inverseName="sharedBy" inverseEntity="PlanItInvitees"/>
+    </entity>
+    <entity name="PlanItShopItems" representedClassName="PlanItShopItems" syncable="YES" codeGenerationType="class">
+        <attribute name="appShopCategoryId" optional="YES" attributeType="String"/>
+        <attribute name="appShopItemId" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="isCustom" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isItemNameUpdated" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isPending" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="itemColor" optional="YES" attributeType="String"/>
+        <attribute name="itemImage" optional="YES" attributeType="String"/>
+        <attribute name="itemName" optional="YES" attributeType="String"/>
+        <attribute name="masterCategoryId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="masterCategoryIdLocal" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="masterCategoryName" optional="YES" attributeType="String"/>
+        <attribute name="masterItemId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="masterSubCategoryId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="masterSubCategoryIdLocal" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="masterSubCategoryName" optional="YES" attributeType="String"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="String"/>
+        <attribute name="userCategoryId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="userCategoryIdLocal" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="userCategoryName" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <attribute name="userItemId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="shopItem" inverseEntity="PlanItCreator"/>
+    </entity>
+    <entity name="PlanItShopList" representedClassName="PlanItShopList" syncable="YES" codeGenerationType="class">
+        <attribute name="appShopListId" optional="YES" attributeType="String"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="deleteStatus" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="dueDate" optional="YES" attributeType="String"/>
+        <attribute name="isCustom" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isPending" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="shopListColor" optional="YES" attributeType="String"/>
+        <attribute name="shopListId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="shopListImage" optional="YES" attributeType="String"/>
+        <attribute name="shopListImageData" optional="YES" attributeType="Binary"/>
+        <attribute name="shopListName" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="shop" inverseEntity="PlanItCreator"/>
+        <relationship name="modifiedBy" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItModifier" inverseName="shopList" inverseEntity="PlanItModifier"/>
+        <relationship name="shareInvitees" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItInvitees" inverseName="shop" inverseEntity="PlanItInvitees"/>
+        <relationship name="shopListItems" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItShopListItems" inverseName="shopList" inverseEntity="PlanItShopListItems"/>
+    </entity>
+    <entity name="PlanItShopListItems" representedClassName="PlanItShopListItems" syncable="YES" codeGenerationType="class">
+        <attribute name="appShopItemId" optional="YES" attributeType="String"/>
+        <attribute name="appShopListItemId" optional="YES" attributeType="String"/>
+        <attribute name="brand" optional="YES" attributeType="String"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="deleteStatus" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="dueDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="isCompleted" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isCompletedLocal" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isFavoriteLocal" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isPending" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isShopCustomItem" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="movedFrom" optional="YES" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="notificationId" optional="YES" attributeType="String"/>
+        <attribute name="notifiedDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="quantity" optional="YES" attributeType="String"/>
+        <attribute name="reminderId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="remindMe" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="shopItemId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="shopListItemId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="storeName" optional="YES" attributeType="String"/>
+        <attribute name="targetPrice" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="shopListItem" inverseEntity="PlanItCreator"/>
+        <relationship name="modifiedBy" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItModifier" inverseName="shopListItem" inverseEntity="PlanItModifier"/>
+        <relationship name="reminder" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItReminder" inverseName="shopListItem" inverseEntity="PlanItReminder"/>
+        <relationship name="shopAttachment" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItUserAttachment" inverseName="shopListItem" inverseEntity="PlanItUserAttachment"/>
+        <relationship name="shopList" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItShopList" inverseName="shopListItems" inverseEntity="PlanItShopList"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItTags" inverseName="shopListItems" inverseEntity="PlanItTags"/>
+    </entity>
+    <entity name="PlanItShopMainCategory" representedClassName="PlanItShopMainCategory" syncable="YES" codeGenerationType="class">
+        <attribute name="appShopCategoryId" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="isCustom" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isOthers" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isPending" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="masterCategoryId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="orderId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="userCategoryId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="shopMainCategory" inverseEntity="PlanItCreator"/>
+        <relationship name="subCategorys" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItShopSubCategory" inverseName="parentCategory" inverseEntity="PlanItShopSubCategory"/>
+    </entity>
+    <entity name="PlanItShopSubCategory" representedClassName="PlanItShopSubCategory" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="masterCategoryId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="userCategoryId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="shopSubCategory" inverseEntity="PlanItCreator"/>
+        <relationship name="parentCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItShopMainCategory" inverseName="subCategorys" inverseEntity="PlanItShopMainCategory"/>
+    </entity>
+    <entity name="PlanItSocialUser" representedClassName="PlanItSocialUser" syncable="YES" codeGenerationType="class">
+        <attribute name="accessTokenExpirationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="refreshedLimit" optional="YES" attributeType="Double" usesScalarValueType="YES"/>
+        <attribute name="refreshToken" optional="YES" attributeType="String"/>
+        <attribute name="socialAccountEmail" optional="YES" attributeType="String"/>
+        <attribute name="socialAccountId" optional="YES" attributeType="String"/>
+        <attribute name="socialAccountName" optional="YES" attributeType="String"/>
+        <attribute name="socialAccType" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="token" optional="YES" attributeType="String"/>
+        <attribute name="user" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlanItSubTodo" representedClassName="PlanItSubTodo" syncable="YES" codeGenerationType="class">
+        <attribute name="completed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="deletedStatus" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="subTodoId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="subTodoTitle" optional="YES" attributeType="String"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="subTodo" inverseEntity="PlanItCreator"/>
+        <relationship name="modifiedBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItModifier" inverseName="subTodo" inverseEntity="PlanItModifier"/>
+        <relationship name="todo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItTodo" inverseName="subTodos" inverseEntity="PlanItTodo"/>
+    </entity>
+    <entity name="PlanItSuggustionTags" representedClassName="PlanItSuggustionTags" syncable="YES" codeGenerationType="class">
+        <attribute name="tag" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlanItTags" representedClassName="PlanItTags" syncable="YES" codeGenerationType="class">
+        <attribute name="tag" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <relationship name="dashboard" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItDashboard" inverseName="tags" inverseEntity="PlanItDashboard"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItEvent" inverseName="tags" inverseEntity="PlanItEvent"/>
+        <relationship name="giftCoupon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItGiftCoupon" inverseName="tags" inverseEntity="PlanItGiftCoupon"/>
+        <relationship name="purchase" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItPurchase" inverseName="tags" inverseEntity="PlanItPurchase"/>
+        <relationship name="shopListItems" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItShopListItems" inverseName="tags" inverseEntity="PlanItShopListItems"/>
+        <relationship name="todo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItTodo" inverseName="tags" inverseEntity="PlanItTodo"/>
+    </entity>
+    <entity name="PlanItTodo" representedClassName="PlanItTodo" syncable="YES" codeGenerationType="class">
+        <attribute name="appToDoId" optional="YES" attributeType="String"/>
+        <attribute name="attachmentsCount" optional="YES" attributeType="String"/>
+        <attribute name="completed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="completedViewStatus" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="deletedStatus" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="dueDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="favourited" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isAssignedByMe" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isAssignedToMe" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isAssignedToMeAccepted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isOwner" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isPending" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isRecurrence" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="movedFrom" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="notificationId" optional="YES" attributeType="String"/>
+        <attribute name="notifiedDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="order" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="originalStartDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="overdueViewStatus" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="recurrenceEndDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="recurrenceToDoId" optional="YES" attributeType="String"/>
+        <attribute name="reminderId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="remindMe" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="subTodosCount" optional="YES" attributeType="String"/>
+        <attribute name="todoId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="todoName" optional="YES" attributeType="String"/>
+        <attribute name="toDoStatus" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="user" optional="YES" attributeType="String"/>
+        <relationship name="attachments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItUserAttachment" inverseName="todo" inverseEntity="PlanItUserAttachment"/>
+        <relationship name="child" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItTodo" inverseName="parent" inverseEntity="PlanItTodo"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="todo" inverseEntity="PlanItCreator"/>
+        <relationship name="invitees" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItInvitees" inverseName="todo" inverseEntity="PlanItInvitees"/>
+        <relationship name="modifiedBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItModifier" inverseName="todo" inverseEntity="PlanItModifier"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItTodo" inverseName="child" inverseEntity="PlanItTodo"/>
+        <relationship name="recurrence" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItTodoRecurrence" inverseName="todo" inverseEntity="PlanItTodoRecurrence"/>
+        <relationship name="reminder" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItReminder" inverseName="todo" inverseEntity="PlanItReminder"/>
+        <relationship name="subTodos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItSubTodo" inverseName="todo" inverseEntity="PlanItSubTodo"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItTags" inverseName="todo" inverseEntity="PlanItTags"/>
+        <relationship name="todoCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItTodoCategory" inverseName="todos" inverseEntity="PlanItTodoCategory"/>
+    </entity>
+    <entity name="PlanItTodoCategory" representedClassName="PlanItTodoCategory" syncable="YES" codeGenerationType="class">
+        <attribute name="appToDoCategoryId" optional="YES" attributeType="String"/>
+        <attribute name="categoryId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="deletedStatus" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isPending" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="permission" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="user" optional="YES" attributeType="String"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="todoCategory" inverseEntity="PlanItCreator"/>
+        <relationship name="invitees" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItInvitees" inverseName="todoCategory" inverseEntity="PlanItInvitees"/>
+        <relationship name="modifiedBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItModifier" inverseName="todoCategory" inverseEntity="PlanItModifier"/>
+        <relationship name="todos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlanItTodo" inverseName="todoCategory" inverseEntity="PlanItTodo"/>
+    </entity>
+    <entity name="PlanItTodoRecurrence" representedClassName="PlanItTodoRecurrence" syncable="YES" codeGenerationType="class">
+        <attribute name="rule" optional="YES" attributeType="String"/>
+        <relationship name="todo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItTodo" inverseName="recurrence" inverseEntity="PlanItTodo"/>
+    </entity>
+    <entity name="PlanItUser" representedClassName="PlanItUser" syncable="YES" codeGenerationType="class">
+        <attribute name="acessToken" optional="YES" attributeType="String"/>
+        <attribute name="authToken" optional="YES" attributeType="String"/>
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="countryCode" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String"/>
+        <attribute name="isExhausted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isLoggedIn" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isPending" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isValidPurchase" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="language" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="notificationPerformDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="notifications" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="profileImageData" optional="YES" attributeType="Binary"/>
+        <attribute name="recieptExpiryDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="signInToken" optional="YES" attributeType="String"/>
+        <attribute name="signInType" optional="YES" attributeType="String"/>
+        <attribute name="socialAccountExpirationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="utcOffset" optional="YES" attributeType="String"/>
+        <relationship name="settings" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItSettings" inverseName="user" inverseEntity="PlanItSettings"/>
+    </entity>
+    <entity name="PlanItUserAttachment" representedClassName="PlanItUserAttachment" syncable="YES" codeGenerationType="class">
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="data" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="file" optional="YES" attributeType="String"/>
+        <attribute name="identifier" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="isPending" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="user" optional="YES" attributeType="String"/>
+        <relationship name="giftCoupon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItGiftCoupon" inverseName="attachments" inverseEntity="PlanItGiftCoupon"/>
+        <relationship name="purchase" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItPurchase" inverseName="attachments" inverseEntity="PlanItPurchase"/>
+        <relationship name="shopListItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItShopListItems" inverseName="shopAttachment" inverseEntity="PlanItShopListItems"/>
+        <relationship name="todo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItTodo" inverseName="attachments" inverseEntity="PlanItTodo"/>
+    </entity>
+    <entity name="PlanItUserNotification" representedClassName="PlanItUserNotification" syncable="YES" codeGenerationType="class">
+        <attribute name="activityId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="activityTitle" optional="YES" attributeType="String"/>
+        <attribute name="activityTypeLabel" optional="YES" attributeType="String"/>
+        <attribute name="actvityType" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="modifiedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="notificationAction" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="notificationActionLabel" optional="YES" attributeType="String"/>
+        <attribute name="notificationId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="notificationType" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="parentNotificationId" optional="YES" attributeType="Double" usesScalarValueType="YES"/>
+        <attribute name="receiverStatus" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="receiverStatusLabel" optional="YES" attributeType="String"/>
+        <attribute name="subActivityTitles" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <relationship name="createdBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItCreator" inverseName="userNotification" inverseEntity="PlanItCreator"/>
+        <relationship name="notificationEvent" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItUserNotificationEvent" inverseName="userNotification" inverseEntity="PlanItUserNotificationEvent"/>
+        <relationship name="userNotificationparent" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PlanItUserNotificationParent" inverseName="userNotification" inverseEntity="PlanItUserNotificationParent"/>
+    </entity>
+    <entity name="PlanItUserNotificationEvent" representedClassName="PlanItUserNotificationEvent" syncable="YES" codeGenerationType="class">
+        <attribute name="endDate" optional="YES" attributeType="String"/>
+        <attribute name="endTime" optional="YES" attributeType="String"/>
+        <attribute name="isAllDay" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="startDate" optional="YES" attributeType="String"/>
+        <attribute name="startTime" optional="YES" attributeType="String"/>
+        <relationship name="userNotification" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItUserNotification" inverseName="notificationEvent" inverseEntity="PlanItUserNotification"/>
+    </entity>
+    <entity name="PlanItUserNotificationParent" representedClassName="PlanItUserNotificationParent" syncable="YES" codeGenerationType="class">
+        <attribute name="activityTitle" optional="YES" attributeType="String"/>
+        <attribute name="activityType" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="activityTypeLabel" optional="YES" attributeType="String"/>
+        <attribute name="notificationAction" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="notificationActionLabel" optional="YES" attributeType="String"/>
+        <attribute name="notificationId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="notificationType" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="receiverStatus" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="receiverStatusLabel" optional="YES" attributeType="String"/>
+        <relationship name="userNotification" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanItUserNotification" inverseName="userNotificationparent" inverseEntity="PlanItUserNotification"/>
+    </entity>
+    <entity name="PlanItUserPayment" representedClassName="PlanItUserPayment" syncable="YES" codeGenerationType="class">
+        <attribute name="cardName" optional="YES" attributeType="String"/>
+        <attribute name="cardNumber" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="PlanItCalendar" positionX="-45" positionY="108" width="128" height="418"/>
+        <element name="PlanItContacts" positionX="-9" positionY="135" width="128" height="148"/>
+        <element name="PlanItCreator" positionX="0" positionY="171" width="128" height="373"/>
+        <element name="PlanItDashboard" positionX="-9" positionY="135" width="128" height="268"/>
+        <element name="PlanItDataStorage" positionX="-9" positionY="135" width="128" height="88"/>
+        <element name="PlanItEvent" positionX="-18" positionY="144" width="128" height="913"/>
+        <element name="PlanItEventAttachment" positionX="-9" positionY="135" width="128" height="105"/>
+        <element name="PlanItEventAttendees" positionX="0" positionY="144" width="128" height="105"/>
+        <element name="PlanItEventCalendar" positionX="-9" positionY="135" width="128" height="178"/>
+        <element name="PlanItEventRecurrence" positionX="9" positionY="153" width="128" height="253"/>
+        <element name="PlanItExcludedSections" positionX="0" positionY="144" width="128" height="73"/>
+        <element name="PlanItGiftCoupon" positionX="-9" positionY="135" width="128" height="373"/>
+        <element name="PlanItInvitees" positionX="36" positionY="189" width="128" height="358"/>
+        <element name="PlanItModifier" positionX="18" positionY="180" width="128" height="268"/>
+        <element name="PlanItPurchase" positionX="-9" positionY="135" width="128" height="358"/>
+        <element name="PlanItPurchaseCard" positionX="0" positionY="144" width="128" height="103"/>
+        <element name="PlanItReminder" positionX="-9" positionY="135" width="128" height="193"/>
+        <element name="PlanItSettings" positionX="-63" positionY="90" width="128" height="208"/>
+        <element name="PlanItSharedUser" positionX="-9" positionY="81" width="128" height="165"/>
+        <element name="PlanItShopItems" positionX="0" positionY="144" width="128" height="388"/>
+        <element name="PlanItShopList" positionX="-9" positionY="135" width="128" height="298"/>
+        <element name="PlanItShopListItems" positionX="27" positionY="171" width="128" height="523"/>
+        <element name="PlanItShopMainCategory" positionX="-9" positionY="135" width="128" height="238"/>
+        <element name="PlanItShopSubCategory" positionX="9" positionY="153" width="128" height="148"/>
+        <element name="PlanItSocialUser" positionX="-9" positionY="135" width="128" height="178"/>
+        <element name="PlanItSubTodo" positionX="9" positionY="153" width="128" height="180"/>
+        <element name="PlanItSuggustionTags" positionX="-9" positionY="135" width="128" height="88"/>
+        <element name="PlanItTags" positionX="-9" positionY="135" width="128" height="163"/>
+        <element name="PlanItTodo" positionX="0" positionY="144" width="128" height="673"/>
+        <element name="PlanItTodoCategory" positionX="-9" positionY="135" width="128" height="238"/>
+        <element name="PlanItTodoRecurrence" positionX="-9" positionY="135" width="128" height="75"/>
+        <element name="PlanItUser" positionX="-63" positionY="-18" width="128" height="403"/>
+        <element name="PlanItUserAttachment" positionX="9" positionY="153" width="128" height="208"/>
+        <element name="PlanItUserNotification" positionX="-9" positionY="135" width="128" height="28"/>
+        <element name="PlanItUserNotificationEvent" positionX="-9" positionY="135" width="128" height="148"/>
+        <element name="PlanItUserNotificationParent" positionX="-9" positionY="135" width="128" height="193"/>
+        <element name="PlanItUserPayment" positionX="-9" positionY="135" width="128" height="90"/>
+    </elements>
+</model>

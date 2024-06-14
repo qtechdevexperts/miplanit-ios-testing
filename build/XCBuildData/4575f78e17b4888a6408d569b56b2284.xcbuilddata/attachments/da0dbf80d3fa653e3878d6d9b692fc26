@@ -1,0 +1,10 @@
+framework module RRuleSwift {
+  umbrella header "RRuleSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module RRuleSwift.__Swift {
+  exclude header "RRuleSwift-Swift.h"
+}

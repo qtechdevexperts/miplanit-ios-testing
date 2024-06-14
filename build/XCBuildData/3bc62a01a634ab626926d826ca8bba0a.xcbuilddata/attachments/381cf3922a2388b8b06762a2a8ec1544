@@ -1,0 +1,10 @@
+framework module AWSMobileClient {
+  umbrella header "AWSMobileClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AWSMobileClient.__Swift {
+  exclude header "AWSMobileClient-Swift.h"
+}

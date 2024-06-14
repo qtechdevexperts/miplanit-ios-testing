@@ -1,0 +1,58 @@
+{
+  "" : {
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/LightweightObservable-master.dia",
+    "emit-module-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/LightweightObservable-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/LightweightObservable-master-emit-module.dia",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/LightweightObservable-master.swiftdeps"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/LightweightObservable/LightweightObservable/Sources/Disposable.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Disposable.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Disposable.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Disposable.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Disposable.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Disposable.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Disposable.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Disposable.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Disposable~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/LightweightObservable/LightweightObservable/Sources/Extensions/Observable+Combine.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Combine.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Combine.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Combine.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Combine.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Combine.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Combine.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Combine~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/LightweightObservable/LightweightObservable/Sources/Extensions/Observable+Equatable.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Equatable.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Equatable.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Equatable.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Equatable.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Equatable.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Equatable.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Equatable.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+Equatable~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/LightweightObservable/LightweightObservable/Sources/Extensions/Observable+KeyPath.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+KeyPath.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+KeyPath.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+KeyPath.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+KeyPath.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+KeyPath.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+KeyPath.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+KeyPath.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable+KeyPath~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/LightweightObservable/LightweightObservable/Sources/Observable.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/LightweightObservable.build/Objects-normal/arm64/Observable~partial.swiftmodule"
+  }
+}

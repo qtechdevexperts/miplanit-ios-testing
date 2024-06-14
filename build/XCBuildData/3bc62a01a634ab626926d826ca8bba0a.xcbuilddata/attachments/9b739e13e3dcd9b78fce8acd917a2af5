@@ -1,0 +1,108 @@
+{
+  "" : {
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBar-master.dia",
+    "emit-module-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBar-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBar-master-emit-module.dia",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBar-master.swiftdeps"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/GradientLoadingBar/GradientLoadingBar/Feature/GradientActivityIndicatorView/GradientActivityIndicatorView.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/GradientLoadingBar/GradientLoadingBar/Feature/GradientActivityIndicatorView/GradientActivityIndicatorView+AnimateIsHidden.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView+AnimateIsHidden.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView+AnimateIsHidden.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView+AnimateIsHidden.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView+AnimateIsHidden.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView+AnimateIsHidden.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView+AnimateIsHidden.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView+AnimateIsHidden.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorView+AnimateIsHidden~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/GradientLoadingBar/GradientLoadingBar/Feature/GradientActivityIndicatorView/GradientActivityIndicatorViewModel.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorViewModel.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorViewModel.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorViewModel.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorViewModel.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorViewModel.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorViewModel.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorViewModel.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientActivityIndicatorViewModel~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/GradientLoadingBar/GradientLoadingBar/Feature/GradientLoadingBar/GradientLoadingBarController.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarController.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarController.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarController.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarController.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarController.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarController.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarController~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/GradientLoadingBar/GradientLoadingBar/Feature/GradientLoadingBar/GradientLoadingBarViewModel.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarViewModel.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarViewModel.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarViewModel.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarViewModel.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarViewModel.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarViewModel.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarViewModel.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarViewModel~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/GradientLoadingBar/GradientLoadingBar/Feature/GradientLoadingBarView/GradientLoadingBarView.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/GradientLoadingBar/GradientLoadingBar/Feature/GradientLoadingBarView/GradientLoadingBarView+ViewModel.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView+ViewModel.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView+ViewModel.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView+ViewModel.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView+ViewModel.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView+ViewModel.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView+ViewModel.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView+ViewModel.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/GradientLoadingBarView+ViewModel~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/GradientLoadingBar/GradientLoadingBar/Feature/NotchGradientLoadingBar/NotchGradientLoadingBarController.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarController.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarController.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarController.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarController.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarController.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarController.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarController~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/GradientLoadingBar/GradientLoadingBar/Feature/NotchGradientLoadingBar/NotchGradientLoadingBarViewModel.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarViewModel.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarViewModel.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarViewModel.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarViewModel.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarViewModel.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarViewModel.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarViewModel.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/NotchGradientLoadingBarViewModel~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/GradientLoadingBar/GradientLoadingBar/Helper/Constants.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/Constants.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/Constants.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/Constants.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/Constants.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/Constants.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/Constants.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/Constants.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/GradientLoadingBar.build/Objects-normal/arm64/Constants~partial.swiftmodule"
+  }
+}

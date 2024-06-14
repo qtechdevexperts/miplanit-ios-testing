@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Display-Regular.ttf">
+            <string>SFUIDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimeSlotAllDayView" customModule="MiPlaniT" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="QXv-RU-D45" id="Axz-cp-hJU"/>
+                <outlet property="labelEventName" destination="Ber-xn-b4d" id="jxX-La-FPe"/>
+                <outlet property="viewContainer" destination="p9j-Kl-6in" id="r7h-lf-0al"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="QXv-RU-D45">
+            <rect key="frame" x="0.0" y="0.0" width="196" height="69"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p9j-Kl-6in">
+                    <rect key="frame" x="0.0" y="0.0" width="196" height="69"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ber-xn-b4d">
+                            <rect key="frame" x="5" y="26.5" width="31" height="16"/>
+                            <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="13"/>
+                            <color key="textColor" red="0.47499603426395942" green="0.46102556266796063" blue="0.46102556266796063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.75109127456257097" blue="0.73297362229737206" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ber-xn-b4d" secondAttribute="trailing" constant="3" id="7P9-9A-ace"/>
+                        <constraint firstItem="Ber-xn-b4d" firstAttribute="leading" secondItem="p9j-Kl-6in" secondAttribute="leading" constant="5" id="pmK-0W-ztF"/>
+                        <constraint firstItem="Ber-xn-b4d" firstAttribute="centerY" secondItem="p9j-Kl-6in" secondAttribute="centerY" id="tCp-an-9Q1"/>
+                        <constraint firstItem="Ber-xn-b4d" firstAttribute="top" relation="greaterThanOrEqual" secondItem="p9j-Kl-6in" secondAttribute="top" priority="999" constant="2" id="xH9-95-r00"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornurRadius">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="p9j-Kl-6in" secondAttribute="trailing" id="Plg-1t-TE6"/>
+                <constraint firstAttribute="bottom" secondItem="p9j-Kl-6in" secondAttribute="bottom" id="XsM-zL-v6d"/>
+                <constraint firstItem="p9j-Kl-6in" firstAttribute="top" secondItem="QXv-RU-D45" secondAttribute="top" id="fFF-8w-jhP"/>
+                <constraint firstItem="p9j-Kl-6in" firstAttribute="leading" secondItem="QXv-RU-D45" secondAttribute="leading" id="ip5-Da-qiK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="JJ1-Rt-Ic2"/>
+            <point key="canvasLocation" x="-352.17391304347831" y="-479.12946428571428"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,307 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "55198c7cc3c930d7f4e1f8aba1c7b3bd649d8324ac82a537e44e2464f152fcb4"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42aef8b96d9db1d298b5f71084d0861c8c"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd429aefde64dba42acbed691d44ba6bec92"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42648ed87d64608c816f618f98e2170496"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c26cbe637d2f249cf0cb6ee7bb5c5765"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd426ec515febfb21f8be66b07d747392302"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42f7abc2f3930d4785b1859d69780a711b"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd423cfa6af09cd92ce0d61a8c8b47a02ca6"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42a88c71bf801d6872b1d31f7f2c0de6a4"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd424bc8f619b923f09792a0a9d49388d61c"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42af50e2baa6f8786c69bcaceaa60df7b2"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd423aed61a3177b5f62e8d8968f715beb8a"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42f73e74bb74f7c06ab7a98f93c2725341"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42ba3679b4c4428e6a6d83c5308d3af99b"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42758cc842172da540ffb591e63e38dc1e"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42410c96b4e26fc36411e63b84c3491605"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42828dc99e68108e01848c924cebb9b2d5"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4251e8fd886951a87551ea0aff618ed4ec"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c38f60e79b6852c1670b94a65c88c3e3"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420cadbdb2db3ef1a623434eb634d6ecfb"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd425679bd4cda6d19c87aeefa470a63593a"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420b433d2f298a726151cfc98c5daed1d1"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42d57b8bce60a0f11113f4cff532db68d3"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd421f1bf5397e3bf6b03ce2b5ab2078e9b4"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42a408a4c1f668e62161cdeba76f57d50c"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42678fb6500ea02c78520816441717cc14"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd422fcb5e27d041e48b96b3ab14ce32d5f2"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c04ead258c2ba3f656422d1784107881"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42020791fd2e7b7ddc8fb2658339c42e16"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42e5b592b076e092ab7ac9d9b5c85edc6f"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd426f81f65466c0a2e7395c158e76999d58"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420c5ce7972ce50f1749855d2e6c168f02"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42566ec9a1d71c4629f4f85ecb735ce614"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd424535f130e81fa6507008242e4e8916fc"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd423da17a3564c774dfaa331fa07754d2bc"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42974c3b2447afb83a5c25c38d101a48ab"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd424b1e8e5f67fa144e5e34058df6e2f50c"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42424a0579f05b8aa7b116a0e1ae14c72d"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420be6c76e7b3dde057d7e3e6ad61f30d4"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42dd3a6a519ed4181bf31ea6bc1f18ebc5"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42cd53d937e824fad9f4527eeeb684cb40"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42468089666b04a941512e80a0cc9cf153"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42bbbb266cb4185458611c79148d1a9d13"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42d3c8dfff2c580c352f83d3850ad17775"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42bb3e3ebadbb0b9a8a4f20f605e3cb3cb"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4218352c54edac2258b91768852065ce5e"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4205ed85aad3aed0f29808c1ccffa4929a"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4269e3148f89b4a625aeae7fd3d1e957b6"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd429b0ee9a6d93c0cfa024bbc34a88b2122"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c777611770584bd7c20ebf80e3d30200"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd424a8eac8d5b6bc897e9823b3668d5ca68"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42718890dfdac589615663a02d43d9af3e"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd421a9fac6eb9c80f8eed49fda0531af6a4"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42e3bd03034edf9569617d02d180aa53a2"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd427801e8e1339b7a3e89fe2352a10a8a8b"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd428c26a99334662396f89aa439ab494a98"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42cfd1d6394655aeacac5a016961d542f7"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42b71da744b4a11a901b558d6896c73a1a"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd422efcfa7a0f8184809bdc89dbfb305628"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd424ffd875e5c3fb6fba5fcf6edc78e0dfb"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42374039e540ad94daa73b95ecd70bf674"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420a765b211b0c8c508dddcb830a52bbab"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42956b709ce41abfabe34269a056c97973"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42d09cfc976f4622a7180a4de1a3b0a290"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4272a1d0c9b4d65372f854ad7ceb04716f"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4203ddfa30de69ee53c6e5e90ceba7232d"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4253a5f598547578a73de3ae739af433c9"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42f10882e1684b8a3dfdec597bc0a47af3"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42ad53226b339581a6725de188f2c8f823"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42ed40b4d6efca84b18a65efda8999ea5d"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd422423904c0fec8d69fb48f8811a58f1b3"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42653b23a377f4795c9454c60f1a4b33dc"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42857c79818813993ac1b4ac666326b14e"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42f8e7be4035607f23011639e48cbe8f84"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd429b394b2284376bfe7965c9e2572e9522"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42122622a5b7632290c189320ce3379d71"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd428b6a73f6b5b35e3abce2ce0aaeb3a1de"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42fa2e43183734e48231e71168c0841a74"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4265c3b587da241b27d42216f00d826f51"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420062393f91a1d2d94e3e5ed3a5aa5da9"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c9e4d77647dbd2f60d4df5fb297112b6"
+    }
+  ],
+  "containerPath" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/MiPlanIt.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos17.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/admin/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/admin/Library/Developer/Xcode/DerivedData/MiPlanIt-dgetvfhhpkzuvjbclpcncfjcpsmc/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/admin/Library/Developer/Xcode/DerivedData/MiPlanIt-dgetvfhhpkzuvjbclpcncfjcpsmc/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone13,2",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.5.1",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone13,2",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "00008101-000A61E80C78001E",
+          "TARGET_DEVICE_MODEL" : "iPhone13,2",
+          "TARGET_DEVICE_OS_VERSION" : "17.5.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphoneos"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

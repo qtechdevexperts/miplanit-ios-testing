@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OtherUserEventTimeView">
+            <connections>
+                <outlet property="contentView" destination="daL-va-IqX" id="XIN-65-mGJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.69999999999999996" contentMode="scaleToFill" id="daL-va-IqX">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="91"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r5P-3d-cQa">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="91"/>
+                    <color key="backgroundColor" red="0.85124426912262363" green="0.85967243020304562" blue="0.85967243020304562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornurRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="c0z-uc-vUN" firstAttribute="bottom" secondItem="r5P-3d-cQa" secondAttribute="bottom" id="F9g-Uq-a7V"/>
+                <constraint firstItem="r5P-3d-cQa" firstAttribute="top" secondItem="daL-va-IqX" secondAttribute="top" id="OZQ-vd-1Y0"/>
+                <constraint firstItem="r5P-3d-cQa" firstAttribute="leading" secondItem="c0z-uc-vUN" secondAttribute="leading" id="Qku-8c-fl5"/>
+                <constraint firstItem="r5P-3d-cQa" firstAttribute="trailing" secondItem="c0z-uc-vUN" secondAttribute="trailing" id="fxs-3F-lLb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="c0z-uc-vUN"/>
+            <point key="canvasLocation" x="131.8840579710145" y="-116.18303571428571"/>
+        </view>
+    </objects>
+</document>

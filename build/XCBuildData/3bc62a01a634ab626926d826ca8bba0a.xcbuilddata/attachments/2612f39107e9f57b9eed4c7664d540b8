@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "FacebookLogin-Swift.h",
+      'external-contents': "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/FacebookLogin.build/unextended-interface-header.h",
+    }]
+    }]
+}

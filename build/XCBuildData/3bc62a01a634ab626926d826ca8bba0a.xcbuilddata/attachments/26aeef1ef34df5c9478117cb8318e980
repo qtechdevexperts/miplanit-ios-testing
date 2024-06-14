@@ -1,0 +1,5 @@
+ extern const unsigned char GradientLoadingBarVersionString[];
+ extern const double GradientLoadingBarVersionNumber;
+
+ const unsigned char GradientLoadingBarVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:GradientLoadingBar  PROJECT:Pods-1" "\n";
+ const double GradientLoadingBarVersionNumber __attribute__ ((used)) = (double)1.;

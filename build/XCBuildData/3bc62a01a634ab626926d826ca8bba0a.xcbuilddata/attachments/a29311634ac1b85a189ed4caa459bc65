@@ -1,0 +1,5 @@
+ extern const unsigned char Pods_MiPlanItVersionString[];
+ extern const double Pods_MiPlanItVersionNumber;
+
+ const unsigned char Pods_MiPlanItVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_MiPlanIt  PROJECT:Pods-1" "\n";
+ const double Pods_MiPlanItVersionNumber __attribute__ ((used)) = (double)1.;

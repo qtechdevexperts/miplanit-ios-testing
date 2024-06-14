@@ -1,0 +1,11 @@
+framework module GradientLoadingBar {
+  umbrella header "GradientLoadingBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module GradientLoadingBar.Swift {
+  header "GradientLoadingBar-Swift.h"
+  requires objc
+}

@@ -1,0 +1,5 @@
+ extern const unsigned char MSALVersionString[];
+ extern const double MSALVersionNumber;
+
+ const unsigned char MSALVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:MSAL  PROJECT:Pods-1" "\n";
+ const double MSALVersionNumber __attribute__ ((used)) = (double)1.;

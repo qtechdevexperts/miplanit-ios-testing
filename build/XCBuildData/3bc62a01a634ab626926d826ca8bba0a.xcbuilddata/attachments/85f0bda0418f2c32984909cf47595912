@@ -1,0 +1,528 @@
+{
+  "" : {
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient-master.dia",
+    "emit-module-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient-master-emit-module.dia",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient-master.swiftdeps"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClient.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientExtensions.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientExtensions.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientExtensions.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientExtensions.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientExtensions.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientExtensions.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientExtensions.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientExtensions.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientExtensions~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSAsyncOperations/AWSAsyncBlockOperation.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncBlockOperation.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncBlockOperation.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncBlockOperation.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncBlockOperation.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncBlockOperation.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncBlockOperation.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncBlockOperation.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncBlockOperation~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSAsyncOperations/AWSAsyncOperation.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncOperation.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncOperation.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncOperation.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncOperation.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncOperation.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncOperation.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncOperation.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSAsyncOperation~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSAsyncOperations/GetTokensUserPool/FetchUserPoolTokensDelegate.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensDelegate.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensDelegate.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensDelegate.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensDelegate.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensDelegate.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensDelegate.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensDelegate.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensDelegate~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSAsyncOperations/GetTokensUserPool/FetchUserPoolTokensOperation.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSAsyncOperations/GetTokensUserPool/FetchUserPoolTokensOperation+States.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation+States.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation+States.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation+States.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation+States.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation+States.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation+States.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation+States.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FetchUserPoolTokensOperation+States~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSMobileClient+Credentials.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Credentials.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Credentials.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Credentials.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Credentials.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Credentials.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Credentials.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Credentials.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Credentials~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSMobileClient+DeleteUser.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+DeleteUser.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+DeleteUser.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+DeleteUser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+DeleteUser.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+DeleteUser.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+DeleteUser.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+DeleteUser.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+DeleteUser~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSMobileClient+Password.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Password.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Password.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Password.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Password.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Password.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Password.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Password.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Password~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSMobileClient+SignIn.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignIn.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignIn.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignIn.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignIn.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignIn.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignIn.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignIn.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignIn~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSMobileClient+SignInUI.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignInUI.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignInUI.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignInUI.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignInUI.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignInUI.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignInUI.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignInUI.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignInUI~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSMobileClient+SignOut.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignOut.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignOut.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignOut.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignOut.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignOut.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignOut.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignOut.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignOut~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSMobileClient+SignUp.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignUp.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignUp.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignUp.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignUp.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignUp.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignUp.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignUp.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+SignUp~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSMobileClient+Tokens.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Tokens.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Tokens.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Tokens.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Tokens.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Tokens.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Tokens.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Tokens.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Tokens~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/AWSMobileClient+UserAttributes.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserAttributes.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserAttributes.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserAttributes.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserAttributes.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserAttributes.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserAttributes.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserAttributes.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserAttributes~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/AWSMobileClientOperations/DeviceOperations.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/DeviceOperations.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/DeviceOperations.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/DeviceOperations.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/DeviceOperations.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/DeviceOperations.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/DeviceOperations.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/DeviceOperations.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/DeviceOperations~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Helpers/AWSMobileClientConstants.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientConstants.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientConstants.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientConstants.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientConstants.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientConstants.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientConstants.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientConstants.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientConstants~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Helpers/IdentityPoolHelper/AWSMobileClient+AWSCognitoCredentialsProvider.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSCognitoCredentialsProvider.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSCognitoCredentialsProvider.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSCognitoCredentialsProvider.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSCognitoCredentialsProvider.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSCognitoCredentialsProvider.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSCognitoCredentialsProvider.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSCognitoCredentialsProvider.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSCognitoCredentialsProvider~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Helpers/IdentityPoolHelper/AWSMobileClient+AWSIdentityProviderManager.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSIdentityProviderManager.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSIdentityProviderManager.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSIdentityProviderManager.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSIdentityProviderManager.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSIdentityProviderManager.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSIdentityProviderManager.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSIdentityProviderManager.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+AWSIdentityProviderManager~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Helpers/KeyChain/AWSMobileClient+Keychain.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Keychain.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Keychain.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Keychain.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Keychain.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Keychain.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Keychain.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Keychain.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+Keychain~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Helpers/Logging/AWSMobileClientLogging.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientLogging.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientLogging.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientLogging.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientLogging.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientLogging.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientLogging.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientLogging.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientLogging~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Helpers/UserPoolHelper/AWSMobileClient+UserPoolAuthHelperCallbacks.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserPoolAuthHelperCallbacks.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserPoolAuthHelperCallbacks.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserPoolAuthHelperCallbacks.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserPoolAuthHelperCallbacks.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserPoolAuthHelperCallbacks.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserPoolAuthHelperCallbacks.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserPoolAuthHelperCallbacks.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClient+UserPoolAuthHelperCallbacks~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Helpers/UserPoolHelper/AWSUserPoolClientHelper.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolClientHelper.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolClientHelper.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolClientHelper.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolClientHelper.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolClientHelper.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolClientHelper.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolClientHelper.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolClientHelper~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Helpers/UserPoolHelper/AWSUserPoolOperationsHandler.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolOperationsHandler.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolOperationsHandler.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolOperationsHandler.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolOperationsHandler.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolOperationsHandler.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolOperationsHandler.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolOperationsHandler.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolOperationsHandler~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Helpers/UserPoolHelper/CognitoIdentityUserBehavior.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoIdentityUserBehavior.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoIdentityUserBehavior.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoIdentityUserBehavior.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoIdentityUserBehavior.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoIdentityUserBehavior.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoIdentityUserBehavior.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoIdentityUserBehavior.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoIdentityUserBehavior~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Helpers/UserPoolHelper/CognitoUserPoolBehavior.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoUserPoolBehavior.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoUserPoolBehavior.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoUserPoolBehavior.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoUserPoolBehavior.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoUserPoolBehavior.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoUserPoolBehavior.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoUserPoolBehavior.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/CognitoUserPoolBehavior~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Helpers/WeakHashTable.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/WeakHashTable.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/WeakHashTable.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/WeakHashTable.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/WeakHashTable.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/WeakHashTable.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/WeakHashTable.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/WeakHashTable.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/WeakHashTable~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Internal/AWSMobileClientUserDetails.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientUserDetails.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientUserDetails.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientUserDetails.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientUserDetails.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientUserDetails.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientUserDetails.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientUserDetails.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientUserDetails~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Internal/AWSUserPoolCustomAuthHandler.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolCustomAuthHandler.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolCustomAuthHandler.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolCustomAuthHandler.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolCustomAuthHandler.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolCustomAuthHandler.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolCustomAuthHandler.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolCustomAuthHandler.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSUserPoolCustomAuthHandler~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Internal/JSONHelper.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/JSONHelper.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/JSONHelper.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/JSONHelper.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/JSONHelper.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/JSONHelper.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/JSONHelper.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/JSONHelper.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/JSONHelper~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/AWSMobileClientError.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientError.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientError.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientError.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientError.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientError.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientError.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientError.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/AWSMobileClientError~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/Device.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Device.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Device.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Device.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Device.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Device.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Device.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Device.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Device~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/FederatedSignInOptions.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederatedSignInOptions.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederatedSignInOptions.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederatedSignInOptions.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederatedSignInOptions.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederatedSignInOptions.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederatedSignInOptions.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederatedSignInOptions.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederatedSignInOptions~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/FederationProvider.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederationProvider.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederationProvider.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederationProvider.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederationProvider.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederationProvider.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederationProvider.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederationProvider.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/FederationProvider~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/ForgotPasswordResult.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordResult.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordResult.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordResult.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordResult.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordResult.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordResult.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordResult.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordResult~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/ForgotPasswordState.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordState.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordState.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordState.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordState.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordState.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordState.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordState.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ForgotPasswordState~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/HostedUIOptions.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/HostedUIOptions.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/HostedUIOptions.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/HostedUIOptions.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/HostedUIOptions.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/HostedUIOptions.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/HostedUIOptions.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/HostedUIOptions.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/HostedUIOptions~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/IdentityProvider.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/IdentityProvider.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/IdentityProvider.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/IdentityProvider.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/IdentityProvider.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/IdentityProvider.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/IdentityProvider.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/IdentityProvider.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/IdentityProvider~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/ListDevicesResult.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ListDevicesResult.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ListDevicesResult.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ListDevicesResult.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ListDevicesResult.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ListDevicesResult.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ListDevicesResult.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ListDevicesResult.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/ListDevicesResult~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/SessionToken.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SessionToken.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SessionToken.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SessionToken.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SessionToken.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SessionToken.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SessionToken.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SessionToken.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SessionToken~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/SignInResult.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInResult.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInResult.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInResult.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInResult.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInResult.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInResult.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInResult.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInResult~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/SignInState.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInState.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInState.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInState.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInState.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInState.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInState.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInState.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInState~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/SignInUIOptions.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInUIOptions.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInUIOptions.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInUIOptions.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInUIOptions.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInUIOptions.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInUIOptions.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInUIOptions.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignInUIOptions~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/SignOutOptions.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignOutOptions.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignOutOptions.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignOutOptions.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignOutOptions.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignOutOptions.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignOutOptions.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignOutOptions.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignOutOptions~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/SignUpConfirmationState.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpConfirmationState.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpConfirmationState.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpConfirmationState.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpConfirmationState.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpConfirmationState.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpConfirmationState.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpConfirmationState.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpConfirmationState~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/SignUpResult.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpResult.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpResult.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpResult.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpResult.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpResult.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpResult.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpResult.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/SignUpResult~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/Tokens.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Tokens.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Tokens.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Tokens.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Tokens.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Tokens.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Tokens.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Tokens.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/Tokens~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/UpdateDeviceStatusResult.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UpdateDeviceStatusResult.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UpdateDeviceStatusResult.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UpdateDeviceStatusResult.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UpdateDeviceStatusResult.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UpdateDeviceStatusResult.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UpdateDeviceStatusResult.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UpdateDeviceStatusResult.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UpdateDeviceStatusResult~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/UserCodeDeliveryDetails.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryDetails.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryDetails.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryDetails.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryDetails.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryDetails.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryDetails.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryDetails.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryDetails~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/UserCodeDeliveryMedium.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryMedium.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryMedium.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryMedium.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryMedium.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryMedium.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryMedium.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryMedium.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserCodeDeliveryMedium~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSMobileClient/AWSAuthSDK/Sources/AWSMobileClient/Models/UserState.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserState.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserState.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserState.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserState.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserState.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserState.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserState.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSMobileClient.build/Objects-normal/arm64/UserState~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,11 @@
+framework module RRuleSwift {
+  umbrella header "RRuleSwift.h"
+
+  export *
+  module * { export * }
+}
+
+module RRuleSwift.Swift {
+  header "RRuleSwift-Swift.h"
+  requires objc
+}

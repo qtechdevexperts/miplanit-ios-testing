@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSCore-master.dia",
+    "emit-module-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSCore-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSCore-master-emit-module.dia",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSCore-master.swiftdeps"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDLog+Optional.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional~partial.swiftmodule"
+  }
+}

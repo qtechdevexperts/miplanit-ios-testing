@@ -1,0 +1,5 @@
+ extern const unsigned char SwiftDefaultsVersionString[];
+ extern const double SwiftDefaultsVersionNumber;
+
+ const unsigned char SwiftDefaultsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:SwiftDefaults  PROJECT:Pods-1" "\n";
+ const double SwiftDefaultsVersionNumber __attribute__ ((used)) = (double)1.;

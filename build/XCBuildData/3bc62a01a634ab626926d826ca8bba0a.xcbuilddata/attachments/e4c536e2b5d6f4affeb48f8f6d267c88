@@ -1,0 +1,10 @@
+framework module GradientLoadingBar {
+  umbrella header "GradientLoadingBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module GradientLoadingBar.__Swift {
+  exclude header "GradientLoadingBar-Swift.h"
+}

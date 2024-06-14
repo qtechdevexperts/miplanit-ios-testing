@@ -1,0 +1,5 @@
+ extern const unsigned char GzipVersionString[];
+ extern const double GzipVersionNumber;
+
+ const unsigned char GzipVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Gzip  PROJECT:Pods-1" "\n";
+ const double GzipVersionNumber __attribute__ ((used)) = (double)1.;

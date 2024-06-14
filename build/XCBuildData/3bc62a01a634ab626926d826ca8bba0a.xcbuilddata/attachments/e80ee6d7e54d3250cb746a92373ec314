@@ -1,0 +1,11 @@
+framework module LightweightObservable {
+  umbrella header "LightweightObservable-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module LightweightObservable.Swift {
+  header "LightweightObservable-Swift.h"
+  requires objc
+}

@@ -1,0 +1,5 @@
+ extern const unsigned char MSGraphClientSDKVersionString[];
+ extern const double MSGraphClientSDKVersionNumber;
+
+ const unsigned char MSGraphClientSDKVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:MSGraphClientSDK  PROJECT:Pods-1" "\n";
+ const double MSGraphClientSDKVersionNumber __attribute__ ((used)) = (double)1.;

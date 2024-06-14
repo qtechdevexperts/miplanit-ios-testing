@@ -1,0 +1,98 @@
+{
+  "" : {
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RRuleSwift-master.dia",
+    "emit-module-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RRuleSwift-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RRuleSwift-master-emit-module.dia",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RRuleSwift-master.swiftdeps"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/RRuleSwift/Sources/EKWeekday+RRule.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/EKWeekday+RRule.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/EKWeekday+RRule.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/EKWeekday+RRule.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/EKWeekday+RRule.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/EKWeekday+RRule.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/EKWeekday+RRule.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/EKWeekday+RRule.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/EKWeekday+RRule~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/RRuleSwift/Sources/ExclusionDate.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/ExclusionDate.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/ExclusionDate.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/ExclusionDate.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/ExclusionDate.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/ExclusionDate.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/ExclusionDate.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/ExclusionDate.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/ExclusionDate~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/RRuleSwift/Sources/InclusionDate.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/InclusionDate.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/InclusionDate.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/InclusionDate.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/InclusionDate.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/InclusionDate.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/InclusionDate.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/InclusionDate.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/InclusionDate~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/RRuleSwift/Sources/Iterators.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/Iterators.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/Iterators.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/Iterators.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/Iterators.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/Iterators.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/Iterators.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/Iterators.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/Iterators~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/RRuleSwift/Sources/JavaScriptBridge.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/JavaScriptBridge.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/JavaScriptBridge.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/JavaScriptBridge.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/JavaScriptBridge.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/JavaScriptBridge.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/JavaScriptBridge.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/JavaScriptBridge.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/JavaScriptBridge~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/RRuleSwift/Sources/NSDate+Comparison.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/NSDate+Comparison.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/NSDate+Comparison.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/NSDate+Comparison.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/NSDate+Comparison.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/NSDate+Comparison.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/NSDate+Comparison.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/NSDate+Comparison.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/NSDate+Comparison~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/RRuleSwift/Sources/RecurrenceFrequency.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceFrequency.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceFrequency.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceFrequency.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceFrequency.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceFrequency.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceFrequency.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceFrequency.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceFrequency~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/RRuleSwift/Sources/RecurrenceRule.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceRule.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceRule.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceRule.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceRule.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceRule.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceRule.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceRule.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RecurrenceRule~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/RRuleSwift/Sources/RRule.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RRule-d57d1c7682f5439f0d85223a00e5f461.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RRule-d57d1c7682f5439f0d85223a00e5f461.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RRule-d57d1c7682f5439f0d85223a00e5f461.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RRule-d57d1c7682f5439f0d85223a00e5f461.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RRule-d57d1c7682f5439f0d85223a00e5f461.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RRule-d57d1c7682f5439f0d85223a00e5f461.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RRule-d57d1c7682f5439f0d85223a00e5f461.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/RRuleSwift.build/Objects-normal/arm64/RRule-d57d1c7682f5439f0d85223a00e5f461~partial.swiftmodule"
+  }
+}

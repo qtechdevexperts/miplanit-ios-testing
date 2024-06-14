@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Display-Regular.ttf">
+            <string>SFUIDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EventTimeView" customModule="MiPlaniT" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="L45-TO-UhS" id="wfN-bG-JLL"/>
+                <outlet property="labelAmountOfTime" destination="ao4-Dn-xgg" id="K5g-gQ-1kj"/>
+                <outlet property="labelAmountOfTimeRight" destination="LSk-nw-0gm" id="QH7-Yr-JeF"/>
+                <outlet property="labelTimeRange" destination="FQ3-aQ-1r8" id="Dl7-te-vjr"/>
+                <outlet property="labelUserNotAvailable" destination="kGU-n3-soZ" id="Koh-4Q-2Az"/>
+                <outlet property="viewTimeIntervalBottom" destination="Gwb-pC-vZn" id="4Jc-e2-yba"/>
+                <outlet property="viewTimeRange" destination="SLG-ha-ev9" id="NLa-fy-d6f"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="L45-TO-UhS">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b04-PG-ln4">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="83"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="7X2-XG-e8z">
+                            <rect key="frame" x="15" y="2" width="166" height="45.5"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="SLG-ha-ev9">
+                                    <rect key="frame" x="0.0" y="0.0" width="166" height="20.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9AM to 9:15AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQ3-aQ-1r8">
+                                            <rect key="frame" x="0.0" y="0.0" width="118" height="20.5"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="17"/>
+                                            <color key="textColor" red="0.44705882352941173" green="0.44705882352941173" blue="0.44705882352941173" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSk-nw-0gm">
+                                            <rect key="frame" x="123" y="0.0" width="43" height="20.5"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="14"/>
+                                            <color key="textColor" red="0.44705882349999998" green="0.44705882349999998" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Gwb-pC-vZn">
+                                    <rect key="frame" x="0.0" y="25.5" width="166" height="20"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="15 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ao4-Dn-xgg">
+                                            <rect key="frame" x="0.0" y="0.0" width="166" height="20"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="U0F-0k-hsZ"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="14"/>
+                                            <color key="textColor" red="0.44705882349999998" green="0.44705882349999998" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGU-n3-soZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="166" height="20"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="14"/>
+                                            <color key="textColor" red="0.44705882349999998" green="0.44705882349999998" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="7X2-XG-e8z" firstAttribute="leading" secondItem="b04-PG-ln4" secondAttribute="leading" constant="15" id="YZA-2m-pkL"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="7X2-XG-e8z" secondAttribute="bottom" constant="5" id="ePC-RE-Epx"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7X2-XG-e8z" secondAttribute="trailing" constant="10" id="kHf-0N-513"/>
+                        <constraint firstItem="7X2-XG-e8z" firstAttribute="top" secondItem="b04-PG-ln4" secondAttribute="top" constant="2" id="s86-gV-lcZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="QL7-hI-sev" firstAttribute="trailing" secondItem="b04-PG-ln4" secondAttribute="trailing" id="0Yp-iV-CZy"/>
+                <constraint firstAttribute="bottom" secondItem="b04-PG-ln4" secondAttribute="bottom" id="HAh-eR-kNM"/>
+                <constraint firstItem="b04-PG-ln4" firstAttribute="top" secondItem="L45-TO-UhS" secondAttribute="top" id="Ni3-cg-mnv"/>
+                <constraint firstItem="b04-PG-ln4" firstAttribute="leading" secondItem="QL7-hI-sev" secondAttribute="leading" id="bVI-ij-vGN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="QL7-hI-sev"/>
+            <point key="canvasLocation" x="131.8840579710145" y="416.18303571428572"/>
+        </view>
+    </objects>
+</document>

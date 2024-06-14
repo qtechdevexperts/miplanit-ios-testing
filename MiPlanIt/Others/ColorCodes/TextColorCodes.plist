@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>226 220 255</key>
+	<string>101 89 159</string>
+	<key>255 235 217</key>
+	<string>155 117 82</string>
+	<key>241 243 201</key>
+	<string>128 131 76</string>
+	<key>214 250 253</key>
+	<string>69 125 130</string>
+	<key>255 208 211</key>
+	<string>172 83 89</string>
+	<key>242 213 254</key>
+	<string>139 97 156</string>
+	<key>220 248 232</key>
+	<string> 81 132 103</string>
+	<key>255 209 232</key>
+	<string>155 96 124</string>
+	<key>255 242 191</key>
+	<string>142 122 41</string>
+	<key>default</key>
+	<string>48 97 129</string>
+</dict>
+</plist>

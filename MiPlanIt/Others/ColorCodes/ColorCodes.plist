@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>colorCodeKey</key>
+		<string>226 220 255</string>
+		<key>colorCodeCalendarColor</key>
+		<string>134 114 221</string>
+		<key>colorCodeTextValue</key>
+		<string>101 89 159</string>
+		<key>colorCodeEventBG</key>
+		<string>226 220 255</string>
+		<key>order</key>
+		<integer>1</integer>
+		<key>colorCodeImageName</key>
+		<string>color1</string>
+		<key>colorCodeImageNameSelected</key>
+		<string>color1-selected</string>
+	</dict>
+	<dict>
+		<key>colorCodeKey</key>
+		<string>255 235 217</string>
+		<key>colorCodeCalendarColor</key>
+		<string>252 188 131</string>
+		<key>colorCodeTextValue</key>
+		<string>155 117 82</string>
+		<key>colorCodeEventBG</key>
+		<string>255 235 217</string>
+		<key>order</key>
+		<integer>2</integer>
+		<key>colorCodeImageName</key>
+		<string>color2</string>
+		<key>colorCodeImageNameSelected</key>
+		<string>color2-selected</string>
+	</dict>
+	<dict>
+		<key>colorCodeKey</key>
+		<string>241 243 201</string>
+		<key>colorCodeCalendarColor</key>
+		<string>213 216 141</string>
+		<key>colorCodeTextValue</key>
+		<string>128 131 76</string>
+		<key>colorCodeEventBG</key>
+		<string>241 243 201</string>
+		<key>order</key>
+		<integer>3</integer>
+		<key>colorCodeImageName</key>
+		<string>color3</string>
+		<key>colorCodeImageNameSelected</key>
+		<string>color3-selected</string>
+	</dict>
+	<dict>
+		<key>colorCodeKey</key>
+		<string>214 250 253</string>
+		<key>colorCodeCalendarColor</key>
+		<string>176 216 219</string>
+		<key>colorCodeTextValue</key>
+		<string>69 125 130</string>
+		<key>colorCodeEventBG</key>
+		<string>214 250 253</string>
+		<key>order</key>
+		<integer>4</integer>
+		<key>colorCodeImageName</key>
+		<string>color4</string>
+		<key>colorCodeImageNameSelected</key>
+		<string>color4-selected</string>
+	</dict>
+	<dict>
+		<key>colorCodeKey</key>
+		<string>255 208 211</string>
+		<key>colorCodeCalendarColor</key>
+		<string>225 139 144</string>
+		<key>colorCodeTextValue</key>
+		<string>172 83 89</string>
+		<key>colorCodeEventBG</key>
+		<string>255 208 211</string>
+		<key>order</key>
+		<integer>5</integer>
+		<key>colorCodeImageName</key>
+		<string>color5</string>
+		<key>colorCodeImageNameSelected</key>
+		<string>color5-selected</string>
+	</dict>
+	<dict>
+		<key>colorCodeKey</key>
+		<string>242 213 254</string>
+		<key>colorCodeCalendarColor</key>
+		<string>192 152 209</string>
+		<key>colorCodeTextValue</key>
+		<string>139 97 156</string>
+		<key>colorCodeEventBG</key>
+		<string>242 213 254</string>
+		<key>order</key>
+		<integer>6</integer>
+		<key>colorCodeImageName</key>
+		<string>color6</string>
+		<key>colorCodeImageNameSelected</key>
+		<string>color6-selected</string>
+	</dict>
+	<dict>
+		<key>colorCodeKey</key>
+		<string>220 248 232</string>
+		<key>colorCodeCalendarColor</key>
+		<string>139 227 176</string>
+		<key>colorCodeTextValue</key>
+		<string>81 132 103</string>
+		<key>colorCodeEventBG</key>
+		<string>220 248 232</string>
+		<key>order</key>
+		<integer>7</integer>
+		<key>colorCodeImageName</key>
+		<string>color7</string>
+		<key>colorCodeImageNameSelected</key>
+		<string>color7-selected</string>
+	</dict>
+	<dict>
+		<key>colorCodeKey</key>
+		<string>255 209 232</string>
+		<key>colorCodeCalendarColor</key>
+		<string>245 148 196</string>
+		<key>colorCodeTextValue</key>
+		<string>155 96 124</string>
+		<key>colorCodeEventBG</key>
+		<string>255 209 232</string>
+		<key>order</key>
+		<integer>8</integer>
+		<key>colorCodeImageName</key>
+		<string>color8</string>
+		<key>colorCodeImageNameSelected</key>
+		<string>color8-selected</string>
+	</dict>
+	<dict>
+		<key>colorCodeKey</key>
+		<string>255 242 191</string>
+		<key>colorCodeCalendarColor</key>
+		<string>247 222 122</string>
+		<key>colorCodeTextValue</key>
+		<string>142 122 41</string>
+		<key>colorCodeEventBG</key>
+		<string>255 242 191</string>
+		<key>order</key>
+		<integer>9</integer>
+		<key>colorCodeImageName</key>
+		<string>color9</string>
+		<key>colorCodeImageNameSelected</key>
+		<string>color9-selected</string>
+	</dict>
+	<dict>
+		<key>colorCodeKey</key>
+		<string>212 238 255</string>
+		<key>colorCodeCalendarColor</key>
+		<string>143 198 235</string>
+		<key>colorCodeTextValue</key>
+		<string>48 97 129</string>
+		<key>colorCodeEventBG</key>
+		<string>212 238 255</string>
+		<key>order</key>
+		<integer>10</integer>
+		<key>colorCodeImageName</key>
+		<string>color10</string>
+		<key>colorCodeImageNameSelected</key>
+		<string>color10-selected</string>
+		<key>isDefault</key>
+		<true/>
+	</dict>
+</array>
+</plist>

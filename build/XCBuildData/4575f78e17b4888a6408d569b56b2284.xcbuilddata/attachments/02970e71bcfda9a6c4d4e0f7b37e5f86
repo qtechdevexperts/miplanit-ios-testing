@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftDefaults.build/Objects-normal/arm64/SwiftDefaults-master.dia",
+    "emit-module-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftDefaults.build/Objects-normal/arm64/SwiftDefaults-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftDefaults.build/Objects-normal/arm64/SwiftDefaults-master-emit-module.dia",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftDefaults.build/Objects-normal/arm64/SwiftDefaults-master.swiftdeps"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/SwiftDefaults/Pod/Classes/SwiftDefaults.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftDefaults.build/Objects-normal/arm64/SwiftDefaults.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftDefaults.build/Objects-normal/arm64/SwiftDefaults.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftDefaults.build/Objects-normal/arm64/SwiftDefaults.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SwiftDefaults.build/Objects-normal/arm64/SwiftDefaults.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftDefaults.build/Objects-normal/arm64/SwiftDefaults.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftDefaults.build/Objects-normal/arm64/SwiftDefaults.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftDefaults.build/Objects-normal/arm64/SwiftDefaults.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftDefaults.build/Objects-normal/arm64/SwiftDefaults~partial.swiftmodule"
+  }
+}

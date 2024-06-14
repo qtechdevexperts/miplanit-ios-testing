@@ -1,0 +1,5 @@
+ extern const unsigned char RRuleSwiftVersionString[];
+ extern const double RRuleSwiftVersionNumber;
+
+ const unsigned char RRuleSwiftVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:RRuleSwift  PROJECT:Pods-1" "\n";
+ const double RRuleSwiftVersionNumber __attribute__ ((used)) = (double)1.;

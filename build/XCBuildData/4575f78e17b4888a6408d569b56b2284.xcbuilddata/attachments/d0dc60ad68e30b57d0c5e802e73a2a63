@@ -1,0 +1,38 @@
+{
+  "" : {
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/SwiftKeychainWrapper-master.dia",
+    "emit-module-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/SwiftKeychainWrapper-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/SwiftKeychainWrapper-master-emit-module.dia",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/SwiftKeychainWrapper-master.swiftdeps"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainItemAccessibility.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainItemAccessibility.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainItemAccessibility.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainItemAccessibility.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainItemAccessibility.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainItemAccessibility.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainItemAccessibility.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainItemAccessibility.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainItemAccessibility~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainWrapper.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapper.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapper.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapper.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapper.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapper.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapper.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapper.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapper~partial.swiftmodule"
+  },
+  "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainWrapperSubscript.swift" : {
+    "const-values" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapperSubscript.swiftconstvalues",
+    "dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapperSubscript.d",
+    "diagnostics" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapperSubscript.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapperSubscript.o",
+    "llvm-bc" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapperSubscript.bc",
+    "object" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapperSubscript.o",
+    "swift-dependencies" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapperSubscript.swiftdeps",
+    "swiftmodule" : "/Users/admin/Documents/Projects/Miplanit/miplanet_ios-fix-sync-issue/build/Pods.build/Debug-iphoneos/SwiftKeychainWrapper.build/Objects-normal/arm64/KeychainWrapperSubscript~partial.swiftmodule"
+  }
+}

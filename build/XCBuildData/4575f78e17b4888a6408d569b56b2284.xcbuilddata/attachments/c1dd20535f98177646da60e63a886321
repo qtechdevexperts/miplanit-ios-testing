@@ -1,0 +1,5 @@
+ extern const unsigned char LightweightObservableVersionString[];
+ extern const double LightweightObservableVersionNumber;
+
+ const unsigned char LightweightObservableVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:LightweightObservable  PROJECT:Pods-1" "\n";
+ const double LightweightObservableVersionNumber __attribute__ ((used)) = (double)1.;

@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9DCD6A60-0C6B-4EE0-97C0-2C9FEF78D908"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "246AF725-EBDD-4946-A9C8-F2C681D8D4DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "sendGoogleCalendarSynchronisationToServer(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9FD053E-6F64-4DA7-9EE8-40532705F268"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "sendGoogleCalendarSynchronisationToServer(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1ED80988-BBF6-45B2-BA71-C205DA305502"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/Base/MyCalanderBaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
+            landmarkName = "calendarRefresh()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B29521E-EB3E-4819-995D-4D0193B91DAB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/Base/MyCalanderBaseViewController+Service.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "createServiceToFetchUsersData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B29521E-EB3E-4819-995D-4D0193B91DAB - 5d920d1f3ba4e3cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MiPlaniT.MyCalanderBaseViewController.createServiceToFetchUsersData() -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/ViewControllers/Calander/List/Base/MyCalanderBaseViewController+Service.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "5B29521E-EB3E-4819-995D-4D0193B91DAB - efdb235fc7a1a037"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Array&lt;MiPlaniT.ServiceDetection&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in MiPlaniT.MyCalanderBaseViewController.createServiceToFetchUsersData() -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/ViewControllers/Calander/List/Base/MyCalanderBaseViewController+Service.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32C2D161-7D53-4011-8E1F-43C4279FBEAE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/Base/MyCalanderBaseViewController+Operator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "refreshCalendarScreenWithUpdates(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D5411C0-F715-4D4F-82FA-C96E2F2D0117"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/Base/MyCalanderBaseViewController+Service.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "createServiceToFetchUsersData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C3DC83F-32E5-4A74-A50F-9EB03D0261F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/Base/MyCalanderBaseViewController+Operator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "refreshCalendarScreenWithUpdates(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45865A78-E7B1-434B-B6E4-C533C01DED94"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Dashboard/Base/DashboardBaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8687D25-B926-462E-8EBA-C4E0EFE1ACFD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Dashboard/Base/DashboardBaseViewController+Service.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "createServiceToFetchUsersCalendarData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E8687D25-B926-462E-8EBA-C4E0EFE1ACFD - bcec5c001d089b26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MiPlaniT.DashboardBaseViewController.createServiceToFetchUsersCalendarData() -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/ViewControllers/Dashboard/Base/DashboardBaseViewController+Service.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "E8687D25-B926-462E-8EBA-C4E0EFE1ACFD - 1429b49770066289"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Array&lt;MiPlaniT.ServiceDetection&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in MiPlaniT.DashboardBaseViewController.createServiceToFetchUsersCalendarData() -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/ViewControllers/Dashboard/Base/DashboardBaseViewController+Service.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD6DB078-4F02-4C9A-809D-570EBF6A7496"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "sendGoogleCalendarSynchronisationToServer(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD6DB078-4F02-4C9A-809D-570EBF6A7496 - 34d7e9ef495938b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MiPlaniT.CalanderDropDownBaseListViewController.sendGoogleCalendarSynchronisationToServer(Swift.Array&lt;MiPlaniT.SocialCalendar&gt;) -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "CD6DB078-4F02-4C9A-809D-570EBF6A7496 - fcbd790ac0eed46e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MiPlaniT.UserCalendarVisibility) -&gt; Swift.Optional&lt;Swift.String&gt; in MiPlaniT.CalanderDropDownBaseListViewController.sendGoogleCalendarSynchronisationToServer(Swift.Array&lt;MiPlaniT.SocialCalendar&gt;) -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1CDDBE3-84B3-4754-AD63-2DDB13F5CBF7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "test2()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5258152-383F-4B7F-9F1A-E8DEB756C35B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "test2()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A092B60-2E2B-4776-977B-B11E82E941CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "test2()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9A092B60-2E2B-4776-977B-B11E82E941CA - 1a0648235b10bcf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;MiPlaniT.SocialCalendar&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MiPlaniT.CalanderDropDownBaseListViewController.test2() -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "580">
+               </Location>
+               <Location
+                  uuid = "9A092B60-2E2B-4776-977B-B11E82E941CA - 9cb0e207c984ec4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;MiPlaniT.SocialCalendar&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MiPlaniT.CalanderDropDownBaseListViewController.test2() -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "881967DB-D255-4200-81C9-7A37DEFA6BC6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "test2()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "881967DB-D255-4200-81C9-7A37DEFA6BC6 - c21437ae85f3d95e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MiPlaniT.CalanderDropDownBaseListViewController.test2() -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "881967DB-D255-4200-81C9-7A37DEFA6BC6 - 1a0648235b10bd4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;MiPlaniT.SocialCalendar&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MiPlaniT.CalanderDropDownBaseListViewController.test2() -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E980948-1968-4D8E-A5E2-6BFDFA499873"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Social/Service/Google/GoogleService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "readCalendarEventsForUser(_:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C086266B-435C-421B-93D1-1EE0E8EAD891"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Social/Service/Google/GoogleService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "readCalendarEventsForUser(_:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C086266B-435C-421B-93D1-1EE0E8EAD891 - 518d06a972e596b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MiPlaniT.GoogleService.readCalendarEventsForUser(_: MiPlaniT.SocialUser, callback: (Swift.Optional&lt;Swift.Array&lt;MiPlaniT.SocialCalendar&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/Models/Social/Service/Google/GoogleService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "C086266B-435C-421B-93D1-1EE0E8EAD891 - 518d06a972e596b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MiPlaniT.GoogleService.readCalendarEventsForUser(_: MiPlaniT.SocialUser, callback: (Swift.Optional&lt;Swift.Array&lt;MiPlaniT.SocialCalendar&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/Models/Social/Service/Google/GoogleService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "C086266B-435C-421B-93D1-1EE0E8EAD891 - 518d06a972e596b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MiPlaniT.GoogleService.readCalendarEventsForUser(_: MiPlaniT.SocialUser, callback: (Swift.Optional&lt;Swift.Array&lt;MiPlaniT.SocialCalendar&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/Models/Social/Service/Google/GoogleService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "444">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93A09391-8860-4891-9B4E-9513316546BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "fetchEventsOfGoogleCalendars(_:fromIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECACB649-CBF6-45F5-91EE-2EA06EEC5A6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "fetchEventsOfGoogleCalendars(_:fromIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA92F5CA-4565-42EB-98F4-C2581EDF57BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/DataModel/Social/SocialCalendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "readGoogleEvents(callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79D7C685-226F-4BB2-9CD9-031E9559AA67"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/DataBase/Manager/Table/User/PlanItSettings+Save.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "saveLastCalendarFetchDataTime(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51F3F863-8315-47D5-9CE7-6B6BF7ABF5A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "createParamsForUser(calendars:appliedColorCodes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CAE3EB1A-BEE4-490E-8FFA-E6343FA2D8E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "importUser(calendars:appliedColorCodes:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B26B2A2E-048F-4E61-974D-FFDDA31967C2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "createParamsForUser(calendars:appliedColorCodes:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B26B2A2E-048F-4E61-974D-FFDDA31967C2 - b6854fed1814232f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MiPlaniT.SocialCalendar) -&gt; () in MiPlaniT.CalendarService.createParamsForUser(calendars: Swift.Array&lt;MiPlaniT.SocialCalendar&gt;, appliedColorCodes: Swift.Array&lt;MiPlaniT.ColorCode&gt;) -&gt; (Swift.Dictionary&lt;Swift.String, Any&gt;, Swift.Array&lt;MiPlaniT.ColorCode&gt;)"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "648">
+               </Location>
+               <Location
+                  uuid = "B26B2A2E-048F-4E61-974D-FFDDA31967C2 - 250e9899f96cac32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MiPlaniT.ColorCode, MiPlaniT.ColorCode) -&gt; Swift.Bool in closure #1 (MiPlaniT.SocialCalendar) -&gt; () in MiPlaniT.CalendarService.createParamsForUser(calendars: Swift.Array&lt;MiPlaniT.SocialCalendar&gt;, appliedColorCodes: Swift.Array&lt;MiPlaniT.ColorCode&gt;) -&gt; (Swift.Dictionary&lt;Swift.String, Any&gt;, Swift.Array&lt;MiPlaniT.ColorCode&gt;)"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CCCA67B-213E-4AED-99E7-6E8562D6D576"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "createParamsForUser(calendars:appliedColorCodes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA5DB69B-135A-44A0-AC81-7EB273AF6EAB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "createParamsForUser(calendars:appliedColorCodes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EAD9007-83DA-47BF-A625-5CCC05F97D80"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "createParamsForUser(calendars:appliedColorCodes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "911D6F52-C6A5-4556-A295-9AC6ECA34AE1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "createParamsForUser(calendars:appliedColorCodes:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "911D6F52-C6A5-4556-A295-9AC6ECA34AE1 - b6854fed18142c64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MiPlaniT.SocialCalendar) -&gt; () in MiPlaniT.CalendarService.createParamsForUser(calendars: Swift.Array&lt;MiPlaniT.SocialCalendar&gt;, appliedColorCodes: Swift.Array&lt;MiPlaniT.ColorCode&gt;) -&gt; (Swift.Dictionary&lt;Swift.String, Any&gt;, Swift.Array&lt;MiPlaniT.ColorCode&gt;)"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "5304">
+               </Location>
+               <Location
+                  uuid = "911D6F52-C6A5-4556-A295-9AC6ECA34AE1 - a01e0ccbaedc6f72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (MiPlaniT.SocialCalendarEvent) -&gt; Swift.Dictionary&lt;Swift.String, Any&gt; in closure #1 (MiPlaniT.SocialCalendar) -&gt; () in MiPlaniT.CalendarService.createParamsForUser(calendars: Swift.Array&lt;MiPlaniT.SocialCalendar&gt;, appliedColorCodes: Swift.Array&lt;MiPlaniT.ColorCode&gt;) -&gt; (Swift.Dictionary&lt;Swift.String, Any&gt;, Swift.Array&lt;MiPlaniT.ColorCode&gt;)"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B907ADB8-E056-4D44-B889-E85FF25942D9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "createParamsForUser(calendars:appliedColorCodes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A2A139B-F7BB-4C38-B181-DFF5130FB6A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "createParamsForUser(calendars:appliedColorCodes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78955249-F16C-4F6E-B476-AD1E9C3E3920"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "createParamsForUser(calendars:appliedColorCodes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4875DD3D-9FF6-453A-8133-7A253DDC2937"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "createParamsForUser(calendars:appliedColorCodes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FC9261A-B73A-4826-AE42-ED86EFC03F8C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Service/Alamofire/API/CalendarService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "createParamsForUser(calendars:appliedColorCodes:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D259B96B-1703-47A5-A9D0-A51988C1AF49"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Service.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "createServiceToFetchGoogleUsersCalendar(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E93EF5BC-F355-47FC-AC0C-FA511EB3A4DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/ViewControllers/Calander/List/DropDown/Base/CalanderDropDownListViewController+Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "readCalendarFromGoogleUsingGrantPermission(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C51690EC-0100-40F5-89C8-8FE372E4DBB1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Session/Presious/APNS/APNSService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "messaging(_:didReceiveRegistrationToken:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C142F9A9-CD4A-4055-AAFD-E0E57429CBFB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiPlanIt/Models/Session/Presious/APNS/APNSService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "messaging(_:didReceiveRegistrationToken:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C142F9A9-CD4A-4055-AAFD-E0E57429CBFB - 42eb1c1432ab7a34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MiPlaniT.Session.messaging(_: __C.FIRMessaging, didReceiveRegistrationToken: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/Models/Session/Presious/APNS/APNSService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "C142F9A9-CD4A-4055-AAFD-E0E57429CBFB - 42eb1c1432ab7a34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MiPlaniT.Session.messaging(_: __C.FIRMessaging, didReceiveRegistrationToken: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "MiPlaniT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mairajuddin/Documents/xCodeProjects/MiPlanit/miplanet_ios/MiPlanIt/Models/Session/Presious/APNS/APNSService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

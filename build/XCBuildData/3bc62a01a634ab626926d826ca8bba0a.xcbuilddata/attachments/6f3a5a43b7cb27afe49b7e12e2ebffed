@@ -1,0 +1,10 @@
+framework module LightweightObservable {
+  umbrella header "LightweightObservable-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module LightweightObservable.__Swift {
+  exclude header "LightweightObservable-Swift.h"
+}
