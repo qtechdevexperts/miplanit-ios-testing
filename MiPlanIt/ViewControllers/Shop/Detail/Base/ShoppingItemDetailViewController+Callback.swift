@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import AVFoundation
 import MobileCoreServices
-import IQKeyboardManagerSwift
+//import IQKeyboardManagerSwift
 
 extension ShoppingItemDetailViewController: UITextFieldDelegate {
     
