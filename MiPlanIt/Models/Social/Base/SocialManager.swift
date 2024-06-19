@@ -49,7 +49,8 @@ public class SocialManager: NSObject {
         case .facebook:
             return self.facebookApplication(app, open: url, options: options)
         case .twitter:
-            return self.twitterApplication(app, open: url, options: options)
+            //return self.twitterApplication(app, open: url, options: options)
+          return false
         case .outlook:
             return self.outlookApplication(app, open: url, options: options)
         case .apple:

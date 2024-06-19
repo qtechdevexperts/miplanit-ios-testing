@@ -75,7 +75,7 @@ class NavigationDrawerViewController: UIViewController {
         case .logOut:
             self.showAlertWithAction(message: Message.confirmLogout, title:Message.confirm, items: [Message.ok, Message.cancel]) { (buttonIndex) in
                 if buttonIndex == 0 {
-                    GIDSignIn.sharedInstance().signOut()
+                    GIDSignIn.sharedInstance.signOut()
 
                     self.forceSignOutUserFromAWSServer()
                 }

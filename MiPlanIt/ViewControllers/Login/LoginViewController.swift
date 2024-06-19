@@ -61,8 +61,9 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func twitterLoginClicked(_ sender: UIButton) {
-        self.startSocialIconAnimation(.twitter)
-        SocialManager.default.twitterLoginWithConsumerKey(ConfigureKeys.twitterConsumerKey, secretKey: ConfigureKeys.twitterSecretKey, result: self)
+//        self.startSocialIconAnimation(.twitter)
+//        SocialManager.default.twitterLoginWithConsumerKey(ConfigureKeys.twitterConsumerKey, secretKey: ConfigureKeys.twitterSecretKey, result: self)
+      debugPrint("TWITTER NOT SUPPORTED")
     }
     
     @IBAction func appleLoginClicked(_ sender: UIButton) {
