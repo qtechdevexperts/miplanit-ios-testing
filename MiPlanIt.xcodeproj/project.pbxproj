@@ -71,6 +71,9 @@
 		18EF8C802A1BB9B700BF7D1F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF8C7F2A1BB9B700BF7D1F /* UIView+Extension.swift */; };
 		18EF8C822A1BC05400BF7D1F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF8C812A1BC05400BF7D1F /* UIColor+Extension.swift */; };
 		1C737B816C1D66590AB160F2 /* Pods_MiPlanIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F05FA3A13A331510D9C2C3 /* Pods_MiPlanIt.framework */; };
+		215D5B962C237AFD00B3B901 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 215D5B952C237AFD00B3B901 /* FacebookCore */; };
+		215D5B982C237AFD00B3B901 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 215D5B972C237AFD00B3B901 /* FacebookLogin */; };
+		215D5B9A2C237AFD00B3B901 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 215D5B992C237AFD00B3B901 /* FacebookShare */; };
 		42028296251BAD780032D91D /* AppleEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42028295251BAD780032D91D /* AppleEvents.swift */; };
 		42036DEC243343D7000D15B6 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42036DEB243343D7000D15B6 /* UIImageExtension.swift */; };
 		4203F9A92443842300F5FE7F /* AddCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4203F9A62443842300F5FE7F /* AddCalendarViewController.swift */; };
@@ -2109,6 +2112,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C737B816C1D66590AB160F2 /* Pods_MiPlanIt.framework in Frameworks */,
+				215D5B962C237AFD00B3B901 /* FacebookCore in Frameworks */,
+				215D5B9A2C237AFD00B3B901 /* FacebookShare in Frameworks */,
+				215D5B982C237AFD00B3B901 /* FacebookLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6099,6 +6105,11 @@
 			dependencies = (
 			);
 			name = MiPlanIt;
+			packageProductDependencies = (
+				215D5B952C237AFD00B3B901 /* FacebookCore */,
+				215D5B972C237AFD00B3B901 /* FacebookLogin */,
+				215D5B992C237AFD00B3B901 /* FacebookShare */,
+			);
 			productName = MiPlanIt;
 			productReference = 42719828241B497A00126E56 /* MiPlaniT.app */;
 			productType = "com.apple.product-type.application";
@@ -6133,7 +6144,7 @@
 			);
 			mainGroup = 4271981F241B497A00126E56;
 			packageReferences = (
-				B4B588102A027A1B0054D5CF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				215D5B942C237AFD00B3B901 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = 42719829241B497A00126E56 /* Products */;
 			projectDirPath = "";
@@ -7504,15 +7515,33 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B4B588102A027A1B0054D5CF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+		215D5B942C237AFD00B3B901 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		215D5B952C237AFD00B3B901 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 215D5B942C237AFD00B3B901 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		215D5B972C237AFD00B3B901 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 215D5B942C237AFD00B3B901 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		215D5B992C237AFD00B3B901 /* FacebookShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 215D5B942C237AFD00B3B901 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		42719832241B497A00126E56 /* MiPlanIt.xcdatamodeld */ = {

@@ -17,6 +17,7 @@ framework module GoogleMobileAds {
   link framework "CoreVideo"
   link framework "Foundation"
   link framework "JavaScriptCore"
+  link framework "MarketplaceKit"
   link framework "MediaPlayer"
   link framework "MessageUI"
   link framework "MobileCoreServices"
