@@ -12,12 +12,20 @@ import Alamofire
 class PredictionService {
     
     func predictionService(url: String, method: HTTPMethod, params: [String: Any]?, callback :@escaping (WSNetworkResponse?, WSNetworkError?) -> ()) {
-        Alamofire.request(ServiceData.prediction + url, method: method, parameters: params, encoding: JSONEncoding.prettyPrinted).responseJSON { response in
-            if response.result.isFailure {
-                callback(nil, WSNetworkError(error: response.result.error!))
-            } else {
-                callback(WSNetworkResponse(response: response), nil)
-            }
+        AF.request(ServiceData.prediction + url, method: method, parameters: params, encoding: JSONEncoding.prettyPrinted).responseJSON { response in
+//          switch response.result {
+//          case .success(let result):
+//            callback(WSNetworkResponse(response: result), nil)
+//
+//          case .failure(let error):
+//            callback(nil, WSNetworkError(error: error))
+//          }
+//            if response.result.isFailure {
+//                callback(nil, WSNetworkError(error: response.result.error!))
+//            } else {
+//                callback(WSNetworkResponse(response: response), nil)
+//            }
+          callback(.init(response: response), nil)
         }
     }
 }
