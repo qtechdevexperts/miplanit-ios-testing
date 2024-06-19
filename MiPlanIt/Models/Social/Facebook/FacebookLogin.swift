@@ -21,11 +21,14 @@ extension SocialManager {
     
     public func loginFacebookFromViewController(_ viewController: UIViewController, using appId: String, result: SocialManagerDelegate?) {
         self.type = .facebook
-        Settings.appID = appId
+//        Settings.appID = appId
+
+      let settings = Settings.init()
+      settings.appID = appId
         self.delegate = result
         let loginManager = LoginManager()
-        loginManager.loginBehavior = .browser
-        
+        //loginManager.loginBehavior = .browser
+
         loginManager.logIn(permissions: ["email"], from: viewController, handler: { result, error in
             guard let out = result, !out.isCancelled else {
                 self.delegate?.socialManagerFailedToLogin(self)
@@ -36,10 +39,10 @@ extension SocialManager {
     
     func requestUserBasicDetails(_ result: LoginManagerLoginResult) {
         guard let token = result.token?.tokenString else { return }
-        GraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, picture.type(large), email"]).start(completionHandler: { (connection, result, error) -> Void in
+        GraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, picture.type(large), email"]).start{ (connection, result, error) -> Void in
             guard let fbUser = result as? [String: Any] else { return }
             let socialUser = SocialUser(with: fbUser, token: token)
             self.delegate?.socialManager(self, loginWithResult: socialUser)
-        })
+        }
     }
 }

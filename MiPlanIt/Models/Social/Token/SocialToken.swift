@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Alamofire
 
 enum TokenSynchronisationType {
     case `default`, start, failed, completed, restarted
@@ -22,17 +23,29 @@ extension SocialManager {
     }
 
     func listenNetwork() {
-        self.networkManager?.listener = { status in
-            switch status {
-            case .notReachable:
-                debugPrint("No")
-            case .unknown:
-                debugPrint("No")
-            case .reachable(_):
-                Session.shared.startOnlineDataProcessing()
-            }
+//        self.networkManager?.listener = { status in
+//            switch status {
+//            case .notReachable:
+//                debugPrint("No")
+//            case .unknown:
+//                debugPrint("No")
+//            case .reachable(_):
+//                Session.shared.startOnlineDataProcessing()
+//            }
+//        }
+//        self.networkManager?.startListening()
+//      networkManager?.startListening()
+      networkManager?.startListening(onUpdatePerforming: { status in
+        switch status {
+        case .notReachable:
+            debugPrint("No")
+        case .unknown:
+            debugPrint("No")
+        case .reachable(_):
+            Session.shared.startOnlineDataProcessing()
         }
-        self.networkManager?.startListening()
+      })
+
     }
     
     func resetExpiryAlertDate() {

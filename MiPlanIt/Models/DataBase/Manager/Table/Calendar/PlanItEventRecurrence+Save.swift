@@ -63,7 +63,8 @@ extension PlanItEventRecurrence {
             return endDate.stringToDate(formatter: DateFormatters.YYYMMDD)?.endOfDay
         }
         else if ruleString.contains("COUNT") {
-            return RecurrenceRule(rruleString: ruleString)?.allOccurrences().last?.endOfDay
+          //  return RecurrenceRule(rruleString: ruleString)?.allOccurrences().last?.endOfDay
+          return nil
         }
         else {
             return nil

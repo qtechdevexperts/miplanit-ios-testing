@@ -32,7 +32,8 @@ class WSManager {
     }
     //Note: Added few print methods to print request and response.
     func makeRequest(method: HTTPMethod, endPoint: String, params: [String: Any]? = [:], encoding: ParameterEncoding, callback: @escaping (WSNetworkResponse?, WSNetworkError?) ->()) {
-        var header = ["Content-Type": "application/json"]
+      var header: [String:String] = ["Content-Type": "application/json"]
+
         if let user = Session.shared.readUser() {
             header["miplanitauthtoken"] = user.readValueOfAuthToken()
             header["isreminderlist"] = IsReminderList.False.rawValue
@@ -46,28 +47,30 @@ class WSManager {
             print("Request End\n")
         }
 
-        
-        Alamofire.request(ServiceData.baseUrl + endPoint, method: method, parameters: params, encoding:encoding, headers: header).responseJSON(completionHandler: { response in
-            if response.result.isFailure {
-                callback(nil, WSNetworkError(error: response.result.error!))
-            } else {
-                if let data = response.data, let resp = self.convertToDictionary(data: data){
-                     print("\nResponse Starts\n", resp)
-                    print("\nResponse Ends --", endPoint)
-                }
-                callback(WSNetworkResponse(response: response), nil)
-            }
+      let httpHeaders: HTTPHeaders = .init(header)
+        AF.request(ServiceData.baseUrl + endPoint, method: method, parameters: params, encoding:encoding, headers: httpHeaders).responseJSON(completionHandler: { response in
+//            if response.result.isFailure {
+//                callback(nil, WSNetworkError(error: response.result.error!))
+//            } else {
+//                if let data = response.data, let resp = self.convertToDictionary(data: data){
+//                     print("\nResponse Starts\n", resp)
+//                    print("\nResponse Ends --", endPoint)
+//                }
+//                callback(WSNetworkResponse(response: response), nil)
+//            }
+          callback(.init(response: response), nil)
         })
     }
     
     func makeRequestForRestorePurchase(method: HTTPMethod,  params: [String: Any]? = [:],on env: InAppEnviornment, callback: @escaping (PurchaseResponse?, WSNetworkError?) ->()){
-        Alamofire.request(env == .production ? ServiceData.itunesService : ServiceData.itunesSandboxService, method: method, parameters: params,
+      AF.request(env == .production ? ServiceData.itunesService : ServiceData.itunesSandboxService, method: method, parameters: params,
             encoding: JSONEncoding.default).responseJSON(completionHandler: { response in
-            if response.result.isFailure {
-                callback(nil, WSNetworkError(error: response.result.error!))
-            } else if let networkResponse = PurchaseResponse(response: response) {
-                callback(networkResponse, nil)
-            }
+//            if response.result.isFailure {
+//                callback(nil, WSNetworkError(error: response.result.error!))
+//            } else if let networkResponse = PurchaseResponse(response: response) {
+//                callback(networkResponse, nil)
+//            }
+        callback(.init(response: response), nil)
         })
     }
     

@@ -59,8 +59,9 @@ extension AccountRegistrationViewController {
             self.startSocialIconAnimation(.google)
             SocialManager.default.loginGoogleFromViewController(self, client: ConfigureKeys.googleClientKey, scopes: ServiceData.googleScope, result: self)
         case .eTwitterUser:
-            self.startSocialIconAnimation(.twitter)
-            SocialManager.default.twitterLoginWithConsumerKey(ConfigureKeys.twitterConsumerKey, secretKey: ConfigureKeys.twitterSecretKey, result: self)
+          return
+            //self.startSocialIconAnimation(.twitter)
+            //SocialManager.default.twitterLoginWithConsumerKey(ConfigureKeys.twitterConsumerKey, secretKey: ConfigureKeys.twitterSecretKey, result: self)
         case .eAppleUser:
             self.startSocialIconAnimation(.apple)
             SocialManager.default.getAppleProviderID(result: self)

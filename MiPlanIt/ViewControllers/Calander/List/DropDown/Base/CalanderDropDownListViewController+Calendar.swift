@@ -175,9 +175,10 @@ extension CalanderDropDownBaseListViewController {
 extension CalanderDropDownBaseListViewController {
     
     func readCalendarFromGoogleUsingGrantPermission(_ calendars: [PlanItCalendar]) {
-        if let googleUser = GIDSignIn.sharedInstance()?.currentUser, let expirationDate = googleUser.authentication.accessTokenExpirationDate, expirationDate.compare(Date()) == .orderedDescending {
+      if let googleUser = GIDSignIn.sharedInstance.currentUser, let expirationDate = googleUser.accessToken.expirationDate, expirationDate.compare(Date()) == .orderedDescending {
             let socialUser = SocialUser(with: googleUser)
             self.createServiceToFetchGoogleUsersCalendar(socialUser)
+
         }
         else {
             SocialManager.default.loginGoogleFromViewController(self, client: ConfigureKeys.googleClientKey, scopes: ServiceData.googleScope, result: self)
