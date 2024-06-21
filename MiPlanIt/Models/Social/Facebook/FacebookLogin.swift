@@ -23,8 +23,8 @@ extension SocialManager {
         self.type = .facebook
 //        Settings.appID = appId
 
-      let settings = Settings.init()
-      settings.appID = appId
+      //let settings = Settings.init()
+      //settings.appID = appId
         self.delegate = result
         let loginManager = LoginManager()
         //loginManager.loginBehavior = .browser
